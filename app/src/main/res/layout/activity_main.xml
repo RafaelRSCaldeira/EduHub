@@ -1,33 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="?attr/actionBarSize">
+    android:background="@color/bg_main_color">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
-
-    <fragment
-        android:id="@+id/nav_host_fragment_activity_main"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toTopOf="@id/nav_view"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <ImageView
+        android:id="@+id/EduHubLoginLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="146dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/mobile_navigation" />
+        app:srcCompat="@drawable/eduhub_logo"
+        android:contentDescription="@string/logo_description"/>
+
+    <TextView
+        android:id="@+id/EduHubLoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/eduhub"
+        android:textColor="@color/main_green"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginLogo" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginText"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin"
+        tools:ignore="TextContrastCheck" />
+
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:padding="10dp"
+        android:text="@string/remeber_me"
+        android:textColor="@color/dark_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.5dp"
+        android:layout_marginEnd="35dp"
+        android:alpha="0.5"
+        android:text="@string/forgot_password"
+        android:textColor="@color/dark_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/main_green"
+        android:text="@string/login_text"
+        android:textColor="@color/bg_main_color"
+        android:textSize="20sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/orText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Or"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginButton"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <View
+        android:id="@+id/hrl"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        android:background="@color/dark_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginButton" />
+
+    <View
+        android:id="@+id/hrr"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        android:background="@color/dark_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginButton" />
+
+
+    <Button
+        android:id="@+id/loginGoogle"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/bright_color"
+        android:text="@string/signin_google"
+        android:ems="10"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:textColor="@color/dark_color"
+        android:textSize="15sp"
+        android:alpha="0.8"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:drawableLeft="@drawable/google_logo"
+        app:cornerRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orText"
+        tools:ignore="RtlHardcoded,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/accountNotExist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/account_not_exists"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginGoogle" />
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/signup"
+        android:textStyle="bold"
+        android:textColor="@color/main_green"
+        app:layout_constraintStart_toEndOf="@id/accountNotExist"
+        app:layout_constraintTop_toBottomOf="@id/loginGoogle" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
