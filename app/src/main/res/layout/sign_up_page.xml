@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color">
+
+    <ImageView
+        android:id="@+id/EduHubLoginLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="146dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eduhub_logo"
+        android:contentDescription="@string/logo_description"/>
+
+    <TextView
+        android:id="@+id/EduHubLoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/eduhub"
+        android:textColor="@color/main_green"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginLogo" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginText"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/emailSignUp"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastName"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/passwordSignUp"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailSignUp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/confirmPasswordSignUp"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/password_confirmation"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="#616161"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordSignUp"
+        tools:ignore="TextContrastCheck" />
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/main_green"
+        android:text="Login"
+        android:textColor="@color/bg_main_color"
+        android:textSize="20sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordSignUp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+
+    <TextView
+        android:id="@+id/accountExists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/signUpButton"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/account_exists"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/signin"
+        android:textColor="@color/main_green"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/accountExists"
+        app:layout_constraintTop_toBottomOf="@id/signUpButton"
+        tools:layout_editor_absoluteY="765dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
