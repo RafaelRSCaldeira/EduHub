@@ -16,6 +16,6 @@
     <string name="signup">Sign Up!</string>
     <string name="signin">Sign In!</string>
     <string name="account_exists">Already have an account?</string>
-    <string name="password_confirmation">Password Confirmation</string>
+    <string name="password_confirmation">Confirm Password</string>
     <string name="signin_google">Sign In with Google</string>
 </resources>
