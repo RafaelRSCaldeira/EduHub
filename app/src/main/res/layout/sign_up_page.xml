@@ -7,34 +7,18 @@
     android:layout_height="match_parent"
     android:background="@color/bg_main_color">
 
-    <Button
-        android:id="@+id/backBtn"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_bg"
-        android:textColor="@color/bg_main_color"
-        android:textSize="20sp"
-        android:drawableStart="@drawable/left_arrow"
-        app:cornerRadius="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText,VisualLintButtonSize" />
-
     <ImageView
-        android:id="@+id/EduHubSignUpLogo"
+        android:id="@+id/eduhubLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="146dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eduhub_logo"
-        android:contentDescription="@string/logo_description"/>
+        app:srcCompat="@drawable/eduhub_logo"/>
 
     <TextView
-        android:id="@+id/EduHubLoginText"
+        android:id="@+id/eduhubText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="127dp"
@@ -45,10 +29,10 @@
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EduHubSignUpLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/eduhubLogo" />
 
     <EditText
-        android:id="@+id/firstName"
+        android:id="@+id/firstNameEditText"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
@@ -64,11 +48,11 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginText"
+        app:layout_constraintTop_toBottomOf="@+id/eduhubText"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/lastName"
+        android:id="@+id/lastNameEditText"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
@@ -84,11 +68,11 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstName"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameEditText"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/emailSignUp"
+        android:id="@+id/emailEditText"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
@@ -104,11 +88,11 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lastName"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameEditText"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/passwordSignUp"
+        android:id="@+id/passEditText"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
@@ -124,11 +108,11 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/confirmPasswordSignUp"
+        android:id="@+id/confirmPassEditText"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
@@ -144,7 +128,7 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/passEditText"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -154,16 +138,16 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_bg"
-        android:text="Sign In"
+        android:text="@string/signin"
         android:textColor="@color/bg_main_color"
         android:textSize="20sp"
         app:cornerRadius="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordSignUp"
-        tools:ignore="HardcodedText,VisualLintButtonSize" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassEditText"
+        tools:ignore="VisualLintButtonSize" />
 
     <TextView
-        android:id="@+id/accountExists"
+        android:id="@+id/accountExistsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/signUpButton"
@@ -181,9 +165,8 @@
         android:text="@string/signin"
         android:textColor="@color/main_green"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@id/accountExists"
-        app:layout_constraintTop_toBottomOf="@id/signUpButton"
-        tools:layout_editor_absoluteY="765dp" />
+        app:layout_constraintStart_toEndOf="@id/accountExistsText"
+        app:layout_constraintTop_toBottomOf="@id/signUpButton"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

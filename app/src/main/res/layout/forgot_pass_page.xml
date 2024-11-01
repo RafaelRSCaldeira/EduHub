@@ -8,7 +8,7 @@
     android:background="@color/bg_main_color">
 
     <ImageView
-        android:id="@+id/ForgotPassLogo"
+        android:id="@+id/eduhubLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="70dp"
@@ -18,11 +18,10 @@
         app:tint="@color/main_green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lock_icon"
-        android:contentDescription="@string/logo_description"/>
+        app:srcCompat="@drawable/lock_icon"/>
 
     <TextView
-        android:id="@+id/landingPageMainText"
+        android:id="@+id/eduhubText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="127dp"
@@ -32,7 +31,7 @@
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ForgotPassLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/eduhubLogo" />
 
     <TextView
         android:id="@+id/resetPassText"
@@ -41,11 +40,11 @@
         android:layout_marginStart="87.4dp"
         android:layout_marginTop="30dp"
         android:text="@string/reset_pass"
-        android:textColor="@color/dark_color"
+        android:textColor="@color/main_green"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/landingPageMainText" />
+        app:layout_constraintTop_toBottomOf="@+id/eduhubText" />
 
     <TextView
         android:id="@+id/resetPassHintText"
@@ -54,7 +53,7 @@
         android:layout_marginStart="59dp"
         android:text="@string/reset_pass_hint"
         android:textAlignment="center"
-        android:textColor="@color/dark_color"
+        android:textColor="@color/main_green"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resetPassText" />
@@ -100,7 +99,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-    android:id="@+id/resetPassBtn"
+    android:id="@+id/resetPassButton"
     android:layout_width="340dp"
     android:layout_height="70dp"
     android:layout_marginStart="35dp"

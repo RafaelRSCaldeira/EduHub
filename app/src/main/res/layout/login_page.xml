@@ -8,18 +8,17 @@
     android:background="@color/bg_main_color">
 
     <ImageView
-        android:id="@+id/EduHubLoginLogo"
+        android:id="@+id/eduhubLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="146dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eduhub_logo"
-        android:contentDescription="@string/logo_description"/>
+        app:srcCompat="@drawable/eduhub_logo"/>
 
     <TextView
-        android:id="@+id/loginPageMainText"
+        android:id="@+id/eduhubText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="127dp"
@@ -30,10 +29,10 @@
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/eduhubLogo" />
 
     <EditText
-        android:id="@+id/emailLogin"
+        android:id="@+id/emailEditText"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -49,15 +48,15 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginPageMainText"
+        app:layout_constraintTop_toBottomOf="@+id/eduhubText"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/passwordLogin"
+        android:id="@+id/passEditText"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:alpha="0.5"
         android:autofillHints="emailAddress"
         android:background="@drawable/input_bg"
@@ -69,11 +68,11 @@
         android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailLogin"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
         tools:ignore="TextContrastCheck" />
 
     <CheckBox
-        android:id="@+id/rememberMe"
+        android:id="@+id/rememberMeCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
@@ -85,11 +84,11 @@
         android:text="@string/remeber_me"
         android:textColor="@color/dark_color"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/passEditText"
         tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/forgotPassword"
+        android:id="@+id/forgotPasswordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -99,7 +98,7 @@
         android:text="@string/forgot_password"
         android:textColor="@color/dark_color"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/passEditText"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -114,7 +113,7 @@
         android:textSize="20sp"
         app:cornerRadius="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/passEditText"
         tools:ignore="VisualLintButtonSize" />
 
     <TextView
@@ -152,9 +151,9 @@
 
 
     <Button
-        android:id="@+id/loginGoogle"
+        android:id="@+id/loginGoogleButton"
         android:layout_width="340dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_white_bg"
@@ -178,22 +177,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="105dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:text="@string/account_not_exists"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/loginGoogle" />
+        app:layout_constraintTop_toBottomOf="@id/loginGoogleButton" />
 
     <TextView
         android:id="@+id/signUpText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:text="@string/signup"
         android:textStyle="bold"
         android:textColor="@color/main_green"
         app:layout_constraintStart_toEndOf="@id/accountNotExist"
-        app:layout_constraintTop_toBottomOf="@id/loginGoogle" />
+        app:layout_constraintTop_toBottomOf="@id/loginGoogleButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
