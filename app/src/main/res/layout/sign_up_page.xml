@@ -2,13 +2,28 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+    android:id="@+id/signUpLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_main_color">
 
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/bg_main_color"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/left_arrow"
+        app:cornerRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
     <ImageView
-        android:id="@+id/EduHubLoginLogo"
+        android:id="@+id/EduHubSignUpLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="42dp"
@@ -30,7 +45,7 @@
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EduHubLoginLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/EduHubSignUpLogo" />
 
     <EditText
         android:id="@+id/firstName"
@@ -46,7 +61,7 @@
         android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:textColor="#616161"
+        android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EduHubLoginText"
@@ -63,10 +78,10 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:hint="@string/last_name"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:textColor="#616161"
+        android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstName"
@@ -86,7 +101,7 @@
         android:inputType="textEmailAddress"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:textColor="#616161"
+        android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lastName"
@@ -106,7 +121,7 @@
         android:inputType="textPassword"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:textColor="#616161"
+        android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailSignUp"
@@ -126,26 +141,26 @@
         android:inputType="textPassword"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:textColor="#616161"
+        android:textColor="@color/light_gray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordSignUp"
         tools:ignore="TextContrastCheck" />
+
     <Button
         android:id="@+id/signUpButton"
         android:layout_width="340dp"
         android:layout_height="70dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/main_green"
-        android:text="Login"
+        android:background="@drawable/button_bg"
+        android:text="Sign In"
         android:textColor="@color/bg_main_color"
         android:textSize="20sp"
         app:cornerRadius="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmPasswordSignUp"
         tools:ignore="HardcodedText,VisualLintButtonSize" />
-
 
     <TextView
         android:id="@+id/accountExists"

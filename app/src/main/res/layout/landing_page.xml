@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logInLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color">
+
+    <ImageView
+        android:id="@+id/EduHubLandingLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="146dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eduhub_logo"
+        android:contentDescription="@string/logo_description"/>
+
+    <TextView
+        android:id="@+id/landingPageMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/eduhub"
+        android:textColor="@color/main_green"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLandingLogo" />
+
+
+    <TextView
+        android:id="@+id/landingPageWelcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/welcome"
+        android:textColor="@color/dark_color"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EduHubLandingLogo" />
+
+    <Button
+        android:id="@+id/signInLandingPageButton"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_alt_bg"
+        android:text="@string/signin"
+        android:textColor="@color/main_green"
+        android:textSize="25sp"
+        app:cornerRadius="40dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/landingPageWelcomeText"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintButtonSize"/>
+
+    <Button
+        android:id="@+id/signUpLandingPageButton"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/signup"
+        android:textColor="@color/bg_main_color"
+        android:textSize="25sp"
+        app:cornerRadius="40dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/signInLandingPageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="VisualLintButtonSize"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logInLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color">
+
+    <ImageView
+        android:id="@+id/ForgotPassLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="146dp"
+        android:scaleY="1.3"
+        android:scaleX="1.3"
+        app:tint="@color/main_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lock_icon"
+        android:contentDescription="@string/logo_description"/>
+
+    <TextView
+        android:id="@+id/landingPageMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/eduhub"
+        android:textColor="@color/main_green"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ForgotPassLogo" />
+
+    <TextView
+        android:id="@+id/resetPassText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87.4dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/reset_pass"
+        android:textColor="@color/dark_color"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/landingPageMainText" />
+
+    <TextView
+        android:id="@+id/resetPassHintText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:text="@string/reset_pass_hint"
+        android:textAlignment="center"
+        android:textColor="@color/dark_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetPassText" />
+
+    <EditText
+        android:id="@+id/newPassEditText"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/new_pass"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/light_gray"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetPassHintText"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/confirmPassEditText"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="@string/confirm_pass"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/light_gray"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassEditText"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+    android:id="@+id/resetPassBtn"
+    android:layout_width="340dp"
+    android:layout_height="70dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/button_bg"
+    android:text="@string/reset_pass_btn"
+    android:textColor="@color/bg_main_color"
+    android:textSize="20sp"
+    app:cornerRadius="40dp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toBottomOf="@id/confirmPassEditText"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="VisualLintButtonSize"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
