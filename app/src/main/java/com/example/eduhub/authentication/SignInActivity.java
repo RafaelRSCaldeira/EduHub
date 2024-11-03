@@ -1,4 +1,4 @@
-package com.example.eduhub;
+package com.example.eduhub.authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,12 +6,14 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.eduhub.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -22,21 +24,9 @@ public class SignInActivity extends AppCompatActivity {
 
     private TextView TextViewSignUp;
     private EditText editTextEmail, editTextPassword;
-    private Button buttonLogin;
+    private Button btnSignIn;
     private FirebaseAuth mAuth;
-
-
-    /*@Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
-            Intent intent = new Intent(LogInActivity.this, TestActivity.class);
-            startActivity(intent);
-            finish();
-        }
-    }*/
+    private ImageButton backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,21 +34,21 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.login_page);
 
         TextViewSignUp = findViewById(R.id.signUpText);
-        editTextEmail = findViewById(R.id.emailLogin);
-        editTextPassword = findViewById(R.id.passwordLogin);
-        buttonLogin = findViewById(R.id.loginButton);
+        editTextEmail = findViewById(R.id.emailEditText);
+        editTextPassword = findViewById(R.id.passEditText);
+        btnSignIn = findViewById(R.id.signInButton);
         mAuth = FirebaseAuth.getInstance();
+        backBtn = findViewById(R.id.backButton);
 
         TextViewSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
 
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
+        btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email, password;
@@ -92,6 +82,13 @@ public class SignInActivity extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getOnBackPressedDispatcher().onBackPressed();
             }
         });
     }

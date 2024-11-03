@@ -7,6 +7,21 @@
     android:layout_height="match_parent"
     android:background="@color/bg_main_color">
 
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="@dimen/back_btn_margin_top"
+        android:layout_marginStart="@dimen/back_btn_margin_left"
+        android:src="@drawable/left_arrow"
+        android:background="@drawable/button_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/bg_main_color"
+        android:contentDescription="@string/back_btn_desc"/>
+
+
     <ImageView
         android:id="@+id/eduhubLogo"
         android:layout_width="120dp"
@@ -39,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="87.4dp"
         android:layout_marginTop="30dp"
-        android:text="@string/reset_pass"
+        android:text="@string/forgot_password"
         android:textColor="@color/main_green"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -51,7 +66,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="59dp"
-        android:text="@string/reset_pass_hint"
+        android:text="@string/reset_pass_text"
         android:textAlignment="center"
         android:textColor="@color/main_green"
         android:textSize="18sp"
@@ -59,16 +74,16 @@
         app:layout_constraintTop_toBottomOf="@+id/resetPassText" />
 
     <EditText
-        android:id="@+id/newPassEditText"
-        android:layout_width="340dp"
-        android:layout_height="60dp"
+        android:id="@+id/emailEditText"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="@dimen/edit_text_heigth"
         android:layout_marginStart="35dp"
         android:layout_marginTop="40dp"
         android:alpha="0.5"
         android:autofillHints="emailAddress"
         android:background="@drawable/input_bg"
         android:ems="10"
-        android:hint="@string/new_pass"
+        android:hint="@string/email"
         android:inputType="textPassword"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
@@ -78,30 +93,11 @@
         app:layout_constraintTop_toBottomOf="@+id/resetPassHintText"
         tools:ignore="TextContrastCheck" />
 
-    <EditText
-        android:id="@+id/confirmPassEditText"
-        android:layout_width="340dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="10dp"
-        android:alpha="0.5"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/input_bg"
-        android:ems="10"
-        android:hint="@string/confirm_pass"
-        android:inputType="textPassword"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:textColor="@color/light_gray"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newPassEditText"
-        tools:ignore="TextContrastCheck" />
 
     <Button
     android:id="@+id/resetPassButton"
-    android:layout_width="340dp"
-    android:layout_height="70dp"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
     android:layout_marginStart="35dp"
     android:layout_marginTop="30dp"
     android:background="@drawable/button_bg"
@@ -110,7 +106,7 @@
     android:textSize="20sp"
     app:cornerRadius="40dp"
     android:textStyle="bold"
-    app:layout_constraintTop_toBottomOf="@id/confirmPassEditText"
+    app:layout_constraintTop_toBottomOf="@id/emailEditText"
     app:layout_constraintStart_toStartOf="parent"
     tools:ignore="VisualLintButtonSize"/>
 

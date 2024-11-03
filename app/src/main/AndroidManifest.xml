@@ -16,14 +16,22 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".SignUpActivity"
+            android:name=".authentication.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".authentication.SignInActivity"
             android:exported="false">
         </activity>
         <activity
-            android:name=".LandingActivity"
+            android:name=".authentication.TestActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".authentication.confirmPassResetActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".authentication.LandingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
