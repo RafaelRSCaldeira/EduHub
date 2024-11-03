@@ -1,4 +1,4 @@
-package com.example.eduhub.authentication;
+package com.example.eduhub.controller.authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
+import com.example.eduhub.controller.TestActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

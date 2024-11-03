@@ -1,4 +1,4 @@
-package com.example.eduhub.authentication;
+package com.example.eduhub.controller.authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
+import com.example.eduhub.controller.TestActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

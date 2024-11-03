@@ -1,4 +1,4 @@
-package com.example.eduhub.authentication;
+package com.example.eduhub.controller.authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +19,7 @@ public class confirmPassResetActivity extends AppCompatActivity {
         Timer timer = new Timer();
         try {
             timer.wait(3000);
-            Intent intent = new Intent(confirmPassResetActivity.this, LandingActivity.class);
+            Intent intent = new Intent(confirmPassResetActivity.this, SignInActivity.class);
             startActivity(intent);
             finish();
         } catch (InterruptedException e) {
