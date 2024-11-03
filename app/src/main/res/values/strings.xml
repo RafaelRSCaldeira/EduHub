@@ -24,7 +24,7 @@
     <!-- RESET PASSWORD STRINGS -->
     <string name="reset_pass_text">Please enter your e-mail address to receive the verification code.</string>
     <string name="reset_pass_btn">Reset Password</string>
-    s
+
     <!-- RESET PASSWORD CONFIRMATION STRINGS -->
     <string name="confirm_pass_reset">A password reset email has been sent to your email address.</string>
     <string name="redirect_login">You are being redirected to the login page…</string>
