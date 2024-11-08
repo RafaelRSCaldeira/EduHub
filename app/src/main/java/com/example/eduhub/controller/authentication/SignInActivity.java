@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.TestActivity;
+import com.example.eduhub.controller.main.HomePageActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -23,25 +23,28 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity {
 
-    private TextView TextViewSignUp;
+    private TextView textViewSignUp, textViewForgotPass;
     private EditText editTextEmail, editTextPassword;
-    private Button btnSignIn;
+    private Button btnSignIn, btnGoogle;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_page);
+        setContentView(R.layout.sign_in_page);
 
-        TextViewSignUp = findViewById(R.id.signUpText);
+        textViewSignUp = findViewById(R.id.signUpText);
+        textViewForgotPass = findViewById(R.id.forgotPasswordText);
         editTextEmail = findViewById(R.id.emailEditText);
         editTextPassword = findViewById(R.id.passEditText);
         btnSignIn = findViewById(R.id.signInButton);
+        btnGoogle = findViewById(R.id.loginGoogleButton);
         mAuth = FirebaseAuth.getInstance();
-        backBtn = findViewById(R.id.backButton);
+        backBtn = findViewById(R.id.button_back);
 
-        TextViewSignUp.setOnClickListener(new View.OnClickListener() {
+
+        textViewSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
@@ -74,7 +77,7 @@ public class SignInActivity extends AppCompatActivity {
                                     Toast.makeText(SignInActivity.this, "Login successful.",
                                             Toast.LENGTH_SHORT).show();
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    Intent intent = new Intent(SignInActivity.this, TestActivity.class);
+                                    Intent intent = new Intent(SignInActivity.this, HomePageActivity.class);
                                     startActivity(intent);
                                     finish();
                                 } else {
@@ -89,7 +92,18 @@ public class SignInActivity extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getOnBackPressedDispatcher().onBackPressed();
+                Intent intent = new Intent(SignInActivity.this, LandingActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        textViewForgotPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignInActivity.this, ForgotPasswordActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

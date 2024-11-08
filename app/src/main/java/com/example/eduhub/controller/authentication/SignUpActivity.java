@@ -14,13 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.TestActivity;
+import com.example.eduhub.controller.main.HomePageActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -42,13 +40,14 @@ public class SignUpActivity extends AppCompatActivity {
         editTextConfirmPassword = findViewById(R.id.confirmPassEditText);
         buttonSignUp = findViewById(R.id.signUpButton);
         mAuth = FirebaseAuth.getInstance();
-        backBtn = findViewById(R.id.backButton);
+        backBtn = findViewById(R.id.button_back);
 
         textViewSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -96,7 +95,7 @@ public class SignUpActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(SignUpActivity.this, "Account created.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignUpActivity.this, TestActivity.class);
+                                    Intent intent = new Intent(SignUpActivity.this, HomePageActivity.class);
                                     startActivity(intent);
                                     finish();
                                 } else {
@@ -112,7 +111,9 @@ public class SignUpActivity extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getOnBackPressedDispatcher().onBackPressed();
+                Intent intent = new Intent(SignUpActivity.this, LandingActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

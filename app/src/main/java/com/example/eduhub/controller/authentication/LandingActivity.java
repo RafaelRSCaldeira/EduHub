@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.TestActivity;
+import com.example.eduhub.controller.main.HomePageActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -24,7 +24,7 @@ public class LandingActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Intent intent = new Intent(LandingActivity.this, TestActivity.class);
+            Intent intent = new Intent(LandingActivity.this, HomePageActivity.class);
             startActivity(intent);
         }
     }

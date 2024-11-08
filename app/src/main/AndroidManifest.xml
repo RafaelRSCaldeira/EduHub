@@ -15,6 +15,17 @@
         android:theme="@style/Theme.EduHub"
         tools:targetApi="31">
 
+
+        <activity
+            android:name=".controller.authentication.LandingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".controller.authentication.SignUpActivity"
             android:exported="false">
@@ -26,29 +37,52 @@
         </activity>
 
         <activity
-            android:name=".controller.TestActivity"
+            android:name=".controller.main.HomePageActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".controller.authentication.confirmPassResetActivity"
+            android:name=".controller.authentication.ConfirmPassResetActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".controller.authentication.emailVerificationActivity"
+            android:name=".controller.authentication.EmailVerificationActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".controller.authentication.LandingActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".controller.authentication.ForgotPasswordActivity"
+            android:exported="false">
         </activity>
+
+        <activity
+            android:name=".controller.certificate.CertificatesActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".controller.menu.HelpAndSupportActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".controller.menu.AboutUsActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".controller.menu.MenuActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".controller.menu.PersonalInfoActivity"
+            android:exported="false">
+        </activity>
+
+
+
 
     </application>
 

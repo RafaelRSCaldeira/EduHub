@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/eduhubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/eduhub"
+            android:text="@string/eduhub"
+            android:textColor="@color/main_green"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/userIcon"
+            android:layout_width="120dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/eduhubText"
+            app:srcCompat="@drawable/account_icon"
+            app:tint="@color/light_gray" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:contentDescription="@string/eduhub"
+            android:text="username"
+            android:textColor="@color/light_gray"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/userIcon"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/white_bg"
+            android:padding="20dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/username"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/button_personal_info"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_info"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:drawableStart="@drawable/user_icon"
+                android:drawableEnd="@drawable/right_arrow_icon"
+                android:drawablePadding="10dp"/>
+
+            <Button
+                android:id="@+id/button_about_us"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:drawableStart="@drawable/question_mark_icon"
+                android:drawableEnd="@drawable/right_arrow_icon"
+                android:drawablePadding="10dp"/>
+
+            <Button
+                android:id="@+id/button_help_and_support"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/help_and_support"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:drawableStart="@drawable/headset_icon"
+                android:drawableEnd="@drawable/right_arrow_icon"
+                android:drawablePadding="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/versionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:contentDescription="@string/eduhub"
+            android:text="@string/version"
+            android:textColor="@color/light_gray"
+            android:alpha="0.5"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bottom_navigation"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        android:background="@color/bg_main_color"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/home_icon"
+            android:background="@drawable/nav_bg"
+            android:contentDescription="@string/account_exists"
+            app:tint="@color/dark_color"/>
+
+        <ImageButton
+            android:id="@+id/button_certificates"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/certificate_icon"
+            android:background="@drawable/nav_bg"
+            android:contentDescription="@string/account_exists"
+            app:tint="@color/dark_color"/>
+
+        <ImageButton
+            android:id="@+id/button_menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/menu_icon"
+            android:background="@drawable/nav_bg_selected"
+            android:contentDescription="@string/account_exists"
+            app:tint="@color/dark_color" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,17 +9,17 @@ import com.example.eduhub.R;
 
 import java.util.Timer;
 
-public class emailVerificationActivity extends AppCompatActivity {
+public class ConfirmPassResetActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_page);
+        setContentView(R.layout.sign_in_page);
 
         Timer timer = new Timer();
         try {
             timer.wait(3000);
-            Intent intent = new Intent(emailVerificationActivity.this, SignInActivity.class);
+            Intent intent = new Intent(ConfirmPassResetActivity.this, SignInActivity.class);
             startActivity(intent);
             finish();
         } catch (InterruptedException e) {
