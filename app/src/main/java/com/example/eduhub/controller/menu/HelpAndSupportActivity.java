@@ -47,6 +47,7 @@ public class HelpAndSupportActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HelpAndSupportActivity.this, MenuActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 finish();
             }
         });

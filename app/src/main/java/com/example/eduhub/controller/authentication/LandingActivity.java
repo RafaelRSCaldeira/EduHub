@@ -42,6 +42,8 @@ public class LandingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LandingActivity.this, SignInActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             }
         });
 
@@ -50,6 +52,8 @@ public class LandingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LandingActivity.this, SignUpActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                finish();
             }
         });
 

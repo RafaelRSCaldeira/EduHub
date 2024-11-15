@@ -6,8 +6,8 @@
 
     <!-- LANDING PAGE STRINGS -->
     <string name="welcome">Welcome Back!</string>
-    <string name="signup">Sign Up</string>
-    <string name="signin">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
 
     <!-- SIGN IN STRINGS -->
     <string name="name">Name</string>
@@ -21,6 +21,9 @@
     <string name="account_exists">Already have an account?</string>
     <string name="password_confirmation">Confirm Password</string>
     <string name="reset_pass">Reset your password</string>
+    <string name="password_security_hint">Your password must be at least 8 characters long and
+        include at least one uppercase letter, one lowercase letter, and one special character
+        (e.g., $, #, @).</string>
 
     <!-- RESET PASSWORD STRINGS -->
     <string name="reset_pass_text">Please enter your e-mail address to receive the verification code.</string>
@@ -51,23 +54,23 @@
     <string name="faq">Frequently Asked Questions (FAQ)</string>
     <string name="faq_questions">
         1.How do I create an account?&#10;
-        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.&#10;&#10;
+        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.&#10;
         2.I forgot my password. What should I do?&#10;
-        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.&#10;&#10;
+        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.&#10;
         3.How can I update my profile?&#10;
-        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.&#10;&#10;
+        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.&#10;
         4.What should I do if the app is not working correctly?&#10;
         - Try restarting the app. If the issue persists, check for updates available in your app store and install the latest version.
     </string>
     <string name="contact_support_title">Contact Support</string>
     <string name="contact_support_text">
-        If you didn\'t find the answer you were looking for, our support team is ready to help! Follow these steps to get in touch:&#10;&#10;
+        If you didn\'t find the answer you were looking for, our support team is ready to help! Follow these steps to get in touch:&#10;
         - Email: Send your questions to eduhubproject2000@gmail.com.
     </string>
     <string name="useful_tips">Useful Tips</string>
     <string name="tips">
         - Keep the app updated to ensure the best performance.&#10;
-        - Enable notifications so you don't miss important updates.&#10;
+        - Enable notifications so you don\'t miss important updates.&#10;
     </string>
     <string name="thanks">Thank you for choosing EduHub! We are here to ensure that your experience is the best it can be.</string>
 
@@ -77,6 +80,10 @@
     <!-- PERSONAL INFO STRINGS -->
     <string name="personal_info_text">EduHub is a platform that offers free courses to users, providing access to valuable educational resources. This application was developed by students Caroline, Catarina, and Rafael as part of their final project for the Software Development course.</string>
 
+    <!-- NAV STRINGS -->
+    <string name="home">Home</string>
+    <string name="certificates">Certificates</string>
+    <string name="menu">Menu</string>
 
     <!-- DESCRIPTION STRINGS -->
     <string name="back_btn_desc">Back</string>

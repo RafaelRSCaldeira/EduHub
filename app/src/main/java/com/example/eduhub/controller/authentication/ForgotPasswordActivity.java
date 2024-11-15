@@ -50,6 +50,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Intent intent = new Intent(ForgotPasswordActivity.this, ConfirmPassResetActivity.class);
                                     startActivity(intent);
+                                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();
                                 }
                             }
@@ -62,6 +63,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ForgotPasswordActivity.this, SignInActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 finish();
             }
         });

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/certificatesLayout"
@@ -21,7 +22,7 @@
             android:contentDescription="@string/eduhub"
             android:text="@string/eduhub"
             android:textColor="@color/main_green"
-            android:textSize="45sp"
+            android:textSize="@dimen/h1_size"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,96 +32,25 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:text="@string/my_certificates"
-            android:textSize="28sp"
+            android:textSize="@dimen/h3_size"
             android:textColor="@color/dark_color"
             android:textStyle="bold" />
 
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/about_us_text">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/user_icon" />
-
-        </ScrollView>
-
-
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <TextView
-            android:id="@+id/versionText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-10dp"
-            android:contentDescription="@string/eduhub"
-            android:text="@string/version"
-            android:textColor="@color/light_gray"
-            android:alpha="0.5"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/bottom_navigation"/>
-
-    </LinearLayout>
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/version"
+        android:textColor="@color/light_gray"
+        android:alpha="0.5"
+        android:textSize="@dimen/h3_size"
+        android:textStyle="bold"/>
 
 
-
-
-
-    <LinearLayout
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:orientation="horizontal"
-        android:background="@color/bg_main_color"
-        android:gravity="center">
-
-        <ImageButton
-            android:id="@+id/button_home"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:src="@drawable/home_icon"
-            android:background="@drawable/nav_bg"
-            android:contentDescription="@string/account_exists"
-            app:tint="@color/dark_color"/>
-
-        <ImageButton
-            android:id="@+id/button_certificates"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:src="@drawable/certificate_icon"
-            android:background="@drawable/nav_bg_selected"
-            android:contentDescription="@string/account_exists"
-            app:tint="@color/dark_color"/>
-
-        <ImageButton
-            android:id="@+id/button_menu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:src="@drawable/menu_icon"
-            android:background="@drawable/nav_bg"
-            android:contentDescription="@string/account_exists"
-            app:tint="@color/dark_color" />
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

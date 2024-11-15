@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/resetPassRedirectLayout"
@@ -7,57 +7,58 @@
     android:layout_height="match_parent"
     android:background="@color/bg_main_color">
 
-    <ImageView
-        android:id="@+id/eduhubLogo"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="146dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eduhub_logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/eduhubText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="127dp"
-        android:layout_marginTop="13dp"
-        android:contentDescription="@string/eduhub"
-        android:text="@string/eduhub"
-        android:textColor="@color/main_green"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eduhubLogo" />
+        <ImageView
+            android:id="@+id/eduhubLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="@dimen/margin_top_logo"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_eduhub"/>
 
-    <TextView
-        android:id="@+id/resetEmailText"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="90dp"
-        android:textSize="20sp"
-        android:textColor="@color/dark_color"
-        android:text="@string/confirm_pass_reset"
-        android:textAlignment="center"
-        tools:ignore="TextContrastCheck"
-        app:layout_constraintTop_toBottomOf="@id/eduhubText"
-        app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:id="@+id/eduhubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_eduhub_1"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/eduhub"
+            android:text="@string/eduhub"
+            android:textColor="@color/main_green"
+            android:textSize="@dimen/h1_size"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/redirectText"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:textSize="20sp"
-        android:textColor="@color/dark_color"
-        android:text="@string/redirect_login"
-        android:textAlignment="center"
-        tools:ignore="TextContrastCheck"
-        app:layout_constraintTop_toBottomOf="@id/resetEmailText"
-        app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:id="@+id/resetEmailText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h4_size"
+            android:textColor="@color/dark_color"
+            android:text="@string/confirm_pass_reset"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/redirectText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h4_size"
+            android:textColor="@color/dark_color"
+            android:text="@string/redirect_login"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck"/>
+    </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

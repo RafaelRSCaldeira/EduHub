@@ -21,6 +21,7 @@ public class ConfirmPassResetActivity extends AppCompatActivity {
             timer.wait(3000);
             Intent intent = new Intent(ConfirmPassResetActivity.this, SignInActivity.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             finish();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

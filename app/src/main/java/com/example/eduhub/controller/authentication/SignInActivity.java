@@ -17,6 +17,7 @@ import com.example.eduhub.R;
 import com.example.eduhub.controller.main.HomePageActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,7 +25,8 @@ import com.google.firebase.auth.FirebaseUser;
 public class SignInActivity extends AppCompatActivity {
 
     private TextView textViewSignUp, textViewForgotPass;
-    private EditText editTextEmail, editTextPassword;
+    private EditText editTextEmail;
+    private TextInputEditText editTextPassword;
     private Button btnSignIn, btnGoogle;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
@@ -37,7 +39,7 @@ public class SignInActivity extends AppCompatActivity {
         textViewSignUp = findViewById(R.id.signUpText);
         textViewForgotPass = findViewById(R.id.forgotPasswordText);
         editTextEmail = findViewById(R.id.emailEditText);
-        editTextPassword = findViewById(R.id.passEditText);
+        editTextPassword = findViewById(R.id.passTextInputEditText);
         btnSignIn = findViewById(R.id.signInButton);
         btnGoogle = findViewById(R.id.loginGoogleButton);
         mAuth = FirebaseAuth.getInstance();
@@ -49,6 +51,8 @@ public class SignInActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             }
         });
 
@@ -76,12 +80,12 @@ public class SignInActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(SignInActivity.this, "Login successful.",
                                             Toast.LENGTH_SHORT).show();
-                                    FirebaseUser user = mAuth.getCurrentUser();
                                     Intent intent = new Intent(SignInActivity.this, HomePageActivity.class);
                                     startActivity(intent);
+                                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();
                                 } else {
-                                    Toast.makeText(SignInActivity.this, "Authentication failed.",
+                                    Toast.makeText(SignInActivity.this, "Account not found.",
                                             Toast.LENGTH_SHORT).show();
                                 }
                             }
@@ -94,6 +98,7 @@ public class SignInActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SignInActivity.this, LandingActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 finish();
             }
         });
@@ -103,6 +108,7 @@ public class SignInActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SignInActivity.this, ForgotPasswordActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
             }
         });

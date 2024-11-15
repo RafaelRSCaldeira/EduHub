@@ -1,81 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/landingLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_main_color">
+    android:id="@+id/main">
 
-    <ImageView
-        android:id="@+id/eduhubLogo"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="146dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/eduhub_logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
 
-    <TextView
-        android:id="@+id/eduhubText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="127dp"
-        android:layout_marginTop="13dp"
-        android:contentDescription="@string/eduhub"
-        android:text="@string/eduhub"
-        android:textColor="@color/main_green"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eduhubLogo" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_eduhub"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eduhub"
+            android:textSize="@dimen/h1_size"
+            android:textStyle="bold"
+            android:contentDescription="@null"
+            android:textColor="@color/main_green"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signInButton"
+            android:layout_width="@dimen/landing_button_width"
+            android:layout_height="@dimen/landing_button_height"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@null"
+            android:text="@string/sign_in"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/main_green"
+            android:textStyle="bold"
+            android:background="@drawable/bg_button_white"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signUpButton"
+            android:layout_width="@dimen/landing_button_width"
+            android:layout_height="@dimen/landing_button_height"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@null"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/button_text_size"
+            android:textColor="@color/bg_main_color"
+            android:textStyle="bold"
+            android:background="@drawable/bg_button_green"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
 
 
-    <TextView
-        android:id="@+id/welcomeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/eduhub"
-        android:text="@string/welcome"
-        android:textColor="@color/main_green"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eduhubText" />
 
-    <Button
-        android:id="@+id/signInButton"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/button_alt_bg"
-        android:text="@string/signin"
-        android:textColor="@color/main_green"
-        android:textSize="25sp"
-        app:cornerRadius="40dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/welcomeText"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="VisualLintButtonSize"/>
-
-    <Button
-        android:id="@+id/signUpButton"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="@dimen/btn_height"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/button_bg"
-        android:text="@string/signup"
-        android:textColor="@color/bg_main_color"
-        android:textSize="25sp"
-        app:cornerRadius="40dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/signInButton"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="VisualLintButtonSize"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

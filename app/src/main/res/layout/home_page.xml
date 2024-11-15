@@ -32,7 +32,7 @@
 
             <EditText
                 android:layout_width="@dimen/edit_text_width"
-                android:layout_height="@dimen/edit_text_heigth"
+                android:layout_height="@dimen/edit_text_height"
                 android:hint="@string/search_hint"
                 android:padding="20dp"/>
 
@@ -82,8 +82,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            android:src="@drawable/home_icon"
-            android:background="@drawable/nav_bg_selected"
+            android:src="@drawable/ic_home"
+            android:background="@drawable/bg_nav_selected"
             android:contentDescription="@string/account_exists"
             app:tint="@color/dark_color"/>
 
@@ -93,8 +93,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            android:src="@drawable/certificate_icon"
-            android:background="@drawable/nav_bg"
+            android:src="@drawable/ic_certificate"
+            android:background="@drawable/bg_nav"
             android:contentDescription="@string/account_exists"
             app:tint="@color/dark_color"/>
 
@@ -104,8 +104,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="5dp"
-            android:src="@drawable/menu_icon"
-            android:background="@drawable/nav_bg"
+            android:src="@drawable/ic_menu"
+            android:background="@drawable/bg_nav"
             android:contentDescription="@string/account_exists"
             app:tint="@color/dark_color" />
 

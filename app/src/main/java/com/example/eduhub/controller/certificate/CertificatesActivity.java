@@ -33,6 +33,7 @@ public class CertificatesActivity extends AppCompatActivity {
             Toast.makeText(this, "Usuário não encontrado", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(CertificatesActivity.this, LandingActivity.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             finish();
         }
         user.sendEmailVerification()
@@ -45,6 +46,7 @@ public class CertificatesActivity extends AppCompatActivity {
                                 timer.wait(3000);
                                 Intent intent = new Intent(CertificatesActivity.this, SignInActivity.class);
                                 startActivity(intent);
+                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                 finish();
                             } catch (InterruptedException e) {
                                 throw new RuntimeException(e);
