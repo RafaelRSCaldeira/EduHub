@@ -36,7 +36,7 @@ public class AuthenticationModel {
         User user = new User(email, name);
         FirebaseDatabase mDatabase = FirebaseDatabase.getInstance();
         DatabaseReference users = mDatabase.getReference("users");
-        users.child(email).setValue(user);
+        users.child(String.valueOf(email.hashCode())).setValue(user);
     }
 
 }

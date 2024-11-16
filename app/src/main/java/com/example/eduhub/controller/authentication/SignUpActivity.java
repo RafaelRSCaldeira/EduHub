@@ -70,27 +70,32 @@ public class SignUpActivity extends AppCompatActivity {
                 confirmPassword = String.valueOf(editTextConfirmPassword.getText());
 
                 if(TextUtils.isEmpty(name)) {
-                    Toast.makeText(SignUpActivity.this, "Enter name", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "Enter name.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if(TextUtils.isEmpty(email)) {
-                    Toast.makeText(SignUpActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "Enter email.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if(!AuthenticationModel.isValidEmail(email)) {
+                    Toast.makeText(SignUpActivity.this, "Invalid email.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if(TextUtils.isEmpty(password)) {
-                    Toast.makeText(SignUpActivity.this, "Enter password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "Enter password.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if(!AuthenticationModel.isValidPassword(password)) {
-                    Toast.makeText(SignUpActivity.this, "Invalid password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "Invalid password.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if(TextUtils.isEmpty(confirmPassword)) {
-                    Toast.makeText(SignUpActivity.this, "Enter password confirmation", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUpActivity.this, "Enter password confirmation.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 

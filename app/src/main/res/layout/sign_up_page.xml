@@ -97,8 +97,8 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passTextInputEditText"
-                android:layout_width="@dimen/edit_text_width"
-                android:layout_height="@dimen/edit_text_height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:hint="@string/password"
                 android:inputType="textPassword"
                 android:background="@drawable/bg_input"
@@ -122,8 +122,8 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/confirmPassTextInputEditText"
-                android:layout_width="@dimen/edit_text_width"
-                android:layout_height="@dimen/edit_text_height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:hint="@string/password_confirmation"
                 android:inputType="textPassword"
                 android:background="@drawable/bg_input"
@@ -137,6 +137,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="5dp"
             android:justificationMode="inter_word"
             android:textSize="@dimen/h6_size"
             android:text="@string/password_security_hint"
