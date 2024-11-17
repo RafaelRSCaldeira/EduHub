@@ -1,0 +1,1898 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Back End Developer Learning Path",
+            "thumbnail": "https://i.ytimg.com/vi/tN6oJu2DqCM/maxresdefault.jpg",
+            "data": "2023-12-14T18:10:10.730253Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM",
+            "videos": [
+                {
+                    "id": "tN6oJu2DqCM",
+                    "title": "Back End Developer Roadmap 2024",
+                    "thumbnail": "https://i.ytimg.com/vi/tN6oJu2DqCM/maxresdefault.jpg",
+                    "publishedAt": "2024-03-08T16:03:29Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=tN6oJu2DqCM"
+                },
+                {
+                    "id": "nu_pCVPKzTk",
+                    "title": "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)",
+                    "thumbnail": "https://i.ytimg.com/vi/nu_pCVPKzTk/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+                },
+                {
+                    "id": "qwAFL1597eM",
+                    "title": "Python Tutorial for Beginners (with mini-projects)",
+                    "thumbnail": "https://i.ytimg.com/vi/qwAFL1597eM/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=qwAFL1597eM"
+                },
+                {
+                    "id": "ZxMB6Njs3ck",
+                    "title": "Learn Django by Building an Online Marketplace – Python Tutorial for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/ZxMB6Njs3ck/maxresdefault.jpg",
+                    "publishedAt": "2024-03-08T16:23:28Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ZxMB6Njs3ck"
+                },
+                {
+                    "id": "RGOj5yH7evk",
+                    "title": "Git and GitHub for Beginners - Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/RGOj5yH7evk/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+                },
+                {
+                    "id": "-fW2X7fh7Yg",
+                    "title": "SQL Tutorial for Beginners (and Technical Interview Questions Solved)",
+                    "thumbnail": "https://i.ytimg.com/vi/-fW2X7fh7Yg/maxresdefault.jpg",
+                    "publishedAt": "2024-03-08T16:19:03Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=-fW2X7fh7Yg"
+                },
+                {
+                    "id": "WXsD0ZgxjRw",
+                    "title": "APIs for Beginners 2023 - How to use an API (Full Course / Tutorial)",
+                    "thumbnail": "https://i.ytimg.com/vi/WXsD0ZgxjRw/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
+                },
+                {
+                    "id": "0sOvCWFmrtA",
+                    "title": "Python API Development - Comprehensive Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/0sOvCWFmrtA/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+                },
+                {
+                    "id": "YYe0FdfdgDU",
+                    "title": "OWASP API Security Top 10 Course – Secure Your Web Apps",
+                    "thumbnail": "https://i.ytimg.com/vi/YYe0FdfdgDU/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU"
+                },
+                {
+                    "id": "IPiUDhwnZxA",
+                    "title": "JavaScript Testing with Jest – Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/IPiUDhwnZxA/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=IPiUDhwnZxA"
+                },
+                {
+                    "id": "m8Icp_Cid5o",
+                    "title": "System Design for Beginners Course",
+                    "thumbnail": "https://i.ytimg.com/vi/m8Icp_Cid5o/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=m8Icp_Cid5o"
+                },
+                {
+                    "id": "hmkF77F9TLw",
+                    "title": "Microservice Architecture and System Design with Python & Kubernetes – Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/hmkF77F9TLw/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=hmkF77F9TLw"
+                },
+                {
+                    "id": "kTp5xUtcalw",
+                    "title": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course",
+                    "thumbnail": "https://i.ytimg.com/vi/kTp5xUtcalw/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=kTp5xUtcalw"
+                },
+                {
+                    "id": "5199E50O7SI",
+                    "title": "GraphQL Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/5199E50O7SI/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=5199E50O7SI"
+                },
+                {
+                    "id": "fgdpvwEWJ9M",
+                    "title": "Firebase – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/fgdpvwEWJ9M/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=fgdpvwEWJ9M"
+                },
+                {
+                    "id": "9t9Mp0BGnyI",
+                    "title": "NGINX Tutorial for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/9t9Mp0BGnyI/maxresdefault.jpg",
+                    "publishedAt": "2024-01-12T15:26:11Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=9t9Mp0BGnyI"
+                },
+                {
+                    "id": "XCsS_NVAa1g",
+                    "title": "Redis Course - In-Memory Database Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/XCsS_NVAa1g/maxresdefault.jpg",
+                    "publishedAt": "2024-03-08T16:25:18Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g"
+                },
+                {
+                    "id": "zN8YNNHcaZc",
+                    "title": "How does the internet work? (Full Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/zN8YNNHcaZc/maxresdefault.jpg",
+                    "publishedAt": "2023-12-14T19:40:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zN8YNNHcaZc"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Front End Developer Learning Path",
+            "thumbnail": "https://i.ytimg.com/vi/9He4UBLyk8Y/maxresdefault.jpg",
+            "data": "2023-08-23T18:53:29.106813Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E",
+            "videos": [
+                {
+                    "id": "9He4UBLyk8Y",
+                    "title": "Front End Developer Roadmap 2024",
+                    "thumbnail": "https://i.ytimg.com/vi/9He4UBLyk8Y/maxresdefault.jpg",
+                    "publishedAt": "2023-10-12T15:59:58Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=9He4UBLyk8Y"
+                },
+                {
+                    "id": "916GWv2Qs08",
+                    "title": "HTML Tutorial - Website Crash Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/916GWv2Qs08/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T18:57:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=916GWv2Qs08"
+                },
+                {
+                    "id": "OXGznpKZ_sA",
+                    "title": "CSS Tutorial – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/OXGznpKZ_sA/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T18:57:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+                },
+                {
+                    "id": "WPqXP_kLzpo",
+                    "title": "Visual Studio Code Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/WPqXP_kLzpo/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:03:25Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WPqXP_kLzpo"
+                },
+                {
+                    "id": "jS4aFq5-91M",
+                    "title": "JavaScript Programming - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/jS4aFq5-91M/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T18:57:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jS4aFq5-91M"
+                },
+                {
+                    "id": "_ZvnD73m40o",
+                    "title": "Prompt Engineering Tutorial – Master ChatGPT and LLM Responses",
+                    "thumbnail": "https://i.ytimg.com/vi/_ZvnD73m40o/maxresdefault.jpg",
+                    "publishedAt": "2023-10-12T16:01:04Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=_ZvnD73m40o"
+                },
+                {
+                    "id": "krfUjg0S2uI",
+                    "title": "Build a Simple Website with HTML, CSS, JavaScript – Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/krfUjg0S2uI/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:03:57Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=krfUjg0S2uI"
+                },
+                {
+                    "id": "y51Cv4wnsPw",
+                    "title": "Web App Tutorial - JavaScript, Mobile First, Accessibility, Persistent Data, Sass",
+                    "thumbnail": "https://i.ytimg.com/vi/y51Cv4wnsPw/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:10:13Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=y51Cv4wnsPw"
+                },
+                {
+                    "id": "RGOj5yH7evk",
+                    "title": "Git and GitHub for Beginners - Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/RGOj5yH7evk/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T18:57:30Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+                },
+                {
+                    "id": "iJKCj8uAHz8",
+                    "title": "Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/iJKCj8uAHz8/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:08:48Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=iJKCj8uAHz8"
+                },
+                {
+                    "id": "2-crBg6wpp0",
+                    "title": "Learn React 18 with Redux Toolkit – Full Tutorial for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/2-crBg6wpp0/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:01:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=2-crBg6wpp0"
+                },
+                {
+                    "id": "ft30zcMlFao",
+                    "title": "Learn Tailwind CSS – Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/ft30zcMlFao/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:05:36Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ft30zcMlFao"
+                },
+                {
+                    "id": "VAeRhmpcWEQ",
+                    "title": "Learn Vite – Frontend Build Tool Course",
+                    "thumbnail": "https://i.ytimg.com/vi/VAeRhmpcWEQ/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:11:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=VAeRhmpcWEQ"
+                },
+                {
+                    "id": "u8vMu7viCm8",
+                    "title": "Testing JavaScript with Cypress – Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/u8vMu7viCm8/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:12:52Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=u8vMu7viCm8"
+                },
+                {
+                    "id": "8vfQ6SWBZ-U",
+                    "title": "React Testing Course for Beginners – Code and Test 3 Apps",
+                    "thumbnail": "https://i.ytimg.com/vi/8vfQ6SWBZ-U/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:13:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=8vfQ6SWBZ-U"
+                },
+                {
+                    "id": "30LWjhZzg50",
+                    "title": "Learn TypeScript – Full Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/30LWjhZzg50/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:16:01Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=30LWjhZzg50"
+                },
+                {
+                    "id": "5199E50O7SI",
+                    "title": "GraphQL Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/5199E50O7SI/maxresdefault.jpg",
+                    "publishedAt": "2023-09-06T15:20:29Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=5199E50O7SI"
+                },
+                {
+                    "id": "KjY94sAKLlw",
+                    "title": "Next.js React Framework Course – Build and Deploy a Full Stack App From scratch",
+                    "thumbnail": "https://i.ytimg.com/vi/KjY94sAKLlw/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:17:34Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=KjY94sAKLlw"
+                },
+                {
+                    "id": "obH0Po_RdWk",
+                    "title": "React Native Course – Android and iOS App Development",
+                    "thumbnail": "https://i.ytimg.com/vi/obH0Po_RdWk/maxresdefault.jpg",
+                    "publishedAt": "2023-08-23T19:20:16Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=obH0Po_RdWk"
+                },
+                {
+                    "id": "e-hTm5VmofI",
+                    "title": "Astro Web Framework Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/e-hTm5VmofI/maxresdefault.jpg",
+                    "publishedAt": "2023-10-12T16:02:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=e-hTm5VmofI"
+                },
+                {
+                    "id": "YYe0FdfdgDU",
+                    "title": "OWASP API Security Top 10 Course – Secure Your Web Apps",
+                    "thumbnail": "https://i.ytimg.com/vi/YYe0FdfdgDU/maxresdefault.jpg",
+                    "publishedAt": "2023-09-06T15:20:29Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU"
+                },
+                {
+                    "id": "zN8YNNHcaZc",
+                    "title": "How does the internet work? (Full Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/zN8YNNHcaZc/maxresdefault.jpg",
+                    "publishedAt": "2023-09-06T15:25:44Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zN8YNNHcaZc"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "C / C++",
+            "thumbnail": "https://i.ytimg.com/vi/KJgsSFOSQv0/maxresdefault.jpg",
+            "data": "2021-09-27T14:51:21Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m",
+            "videos": [
+                {
+                    "id": "KJgsSFOSQv0",
+                    "title": "C Programming Tutorial for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/KJgsSFOSQv0/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:52:01Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0"
+                },
+                {
+                    "id": "vLnPwxZdW4Y",
+                    "title": "C++ Tutorial for Beginners - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/vLnPwxZdW4Y/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y"
+                },
+                {
+                    "id": "wN0x9eZLix4",
+                    "title": "Object Oriented Programming (OOP) in C++ Course",
+                    "thumbnail": "https://i.ytimg.com/vi/wN0x9eZLix4/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=wN0x9eZLix4"
+                },
+                {
+                    "id": "i_Iq4_Kd7Rc",
+                    "title": "Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/i_Iq4_Kd7Rc/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=i_Iq4_Kd7Rc"
+                },
+                {
+                    "id": "45MIykWJ-C4",
+                    "title": "OpenGL Course - Create 3D and 2D Graphics With C++",
+                    "thumbnail": "https://i.ytimg.com/vi/45MIykWJ-C4/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=45MIykWJ-C4"
+                },
+                {
+                    "id": "B31LgI4Y4DQ",
+                    "title": "Data Structures - Full Course Using C and C++",
+                    "thumbnail": "https://i.ytimg.com/vi/B31LgI4Y4DQ/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=B31LgI4Y4DQ"
+                },
+                {
+                    "id": "zuegQmMdy8M",
+                    "title": "Pointers in C / C++ [Full Course]",
+                    "thumbnail": "https://i.ytimg.com/vi/zuegQmMdy8M/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:51:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zuegQmMdy8M"
+                },
+                {
+                    "id": "ix5jPkxsr7M",
+                    "title": "C Programming Language - Intro to Computer Science - Harvard's CS50 (2018)",
+                    "thumbnail": "https://i.ytimg.com/vi/ix5jPkxsr7M/maxresdefault.jpg",
+                    "publishedAt": "2021-09-27T14:52:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ix5jPkxsr7M"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Deep Learning with PyTorch Course - December 2020",
+            "thumbnail": "https://i.ytimg.com/vi/5ioMqzMRFgM/maxresdefault.jpg",
+            "data": "2020-12-04T19:57:05Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbm5dir5TLEy2aZQMG7cHEZp",
+            "videos": [
+                {
+                    "id": "5ioMqzMRFgM",
+                    "title": "PyTorch Basics and Gradient Descent | Deep Learning with PyTorch: Zero to GANs | Part 1 of 6",
+                    "thumbnail": "https://i.ytimg.com/vi/5ioMqzMRFgM/maxresdefault.jpg",
+                    "publishedAt": "2020-12-04T19:57:52Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=5ioMqzMRFgM"
+                },
+                {
+                    "id": "uuuzvOEC0zw",
+                    "title": "PyTorch Images and Logistic Regression | Deep Learning with PyTorch: Zero to GANs | Part 2 of 6",
+                    "thumbnail": "https://i.ytimg.com/vi/uuuzvOEC0zw/maxresdefault.jpg",
+                    "publishedAt": "2020-12-04T19:58:14Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=uuuzvOEC0zw"
+                },
+                {
+                    "id": "Qn5DDQn0fx0",
+                    "title": "Training Deep Neural Networks on a GPU | Deep Learning with PyTorch: Zero to GANs | Part 3 of 6",
+                    "thumbnail": "https://i.ytimg.com/vi/Qn5DDQn0fx0/maxresdefault.jpg",
+                    "publishedAt": "2020-12-04T19:58:44Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Qn5DDQn0fx0"
+                },
+                {
+                    "id": "d9QHNkD_Pos",
+                    "title": "Image Classification with Convolutional Neural Networks | Deep Learning with PyTorch: Zero to GANs |",
+                    "thumbnail": "https://i.ytimg.com/vi/d9QHNkD_Pos/maxresdefault.jpg",
+                    "publishedAt": "2020-12-10T14:41:54Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=d9QHNkD_Pos"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Data Analysis with Python Course",
+            "thumbnail": "https://i.ytimg.com/vi/EsDFiZPljYo/maxresdefault.jpg",
+            "data": "2020-08-13T16:25:47Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblvI1i46ScbKV2jH1gdL7VQ",
+            "videos": [
+                {
+                    "id": "EsDFiZPljYo",
+                    "title": "Data Analysis with Python: Part 1 of 6 (Live Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/EsDFiZPljYo/maxresdefault.jpg",
+                    "publishedAt": "2020-08-13T16:26:54Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=EsDFiZPljYo"
+                },
+                {
+                    "id": "JOKJ6g3gUFE",
+                    "title": "Data Analysis with Python: Part 2 of 6 - Python Functions and Working with Files (Live Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/JOKJ6g3gUFE/maxresdefault.jpg",
+                    "publishedAt": "2020-08-21T19:50:44Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=JOKJ6g3gUFE"
+                },
+                {
+                    "id": "NlZXAytUeeE",
+                    "title": "Data Analysis with Python: Part 3 of 6 Numerical Computing with Numpy (Live Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/NlZXAytUeeE/maxresdefault.jpg",
+                    "publishedAt": "2020-09-09T20:42:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=NlZXAytUeeE"
+                },
+                {
+                    "id": "b2mLDkMSyn4",
+                    "title": "Data Analysis with Python: Part 4 of 6 - Analyzing tabular data with Pandas",
+                    "thumbnail": "https://i.ytimg.com/vi/b2mLDkMSyn4/maxresdefault.jpg",
+                    "publishedAt": "2020-09-09T20:42:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=b2mLDkMSyn4"
+                },
+                {
+                    "id": "bybjFBOBJlg",
+                    "title": "Data Analysis with Python: Part 5 of 6 - Visualization with Matplotlib and Seaborn (Live Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/bybjFBOBJlg/maxresdefault.jpg",
+                    "publishedAt": "2020-09-09T20:42:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=bybjFBOBJlg"
+                },
+                {
+                    "id": "XRKIa4k0h2E",
+                    "title": "Data Analysis with Python: Part 6 of 6 - Exploratory Data Analysis - A Case Study [Live Course]",
+                    "thumbnail": "https://i.ytimg.com/vi/XRKIa4k0h2E/maxresdefault.jpg",
+                    "publishedAt": "2020-09-18T13:46:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=XRKIa4k0h2E"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Mathematics",
+            "thumbnail": "https://i.ytimg.com/vi/i7vOAcUo5iA/maxresdefault.jpg",
+            "data": "2020-07-22T15:24:38Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v",
+            "videos": [
+                {
+                    "id": "i7vOAcUo5iA",
+                    "title": "College Algebra – Full Course with Python Code",
+                    "thumbnail": "https://i.ytimg.com/vi/i7vOAcUo5iA/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:39:53Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=i7vOAcUo5iA"
+                },
+                {
+                    "id": "eI4an8aSsgw",
+                    "title": "Precalculus Course",
+                    "thumbnail": "https://i.ytimg.com/vi/eI4an8aSsgw/maxresdefault.jpg",
+                    "publishedAt": "2020-08-03T20:11:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=eI4an8aSsgw"
+                },
+                {
+                    "id": "HfACrKJ_Y2w",
+                    "title": "Calculus 1 - Full College Course",
+                    "thumbnail": "https://i.ytimg.com/vi/HfACrKJ_Y2w/maxresdefault.jpg",
+                    "publishedAt": "2020-08-25T13:47:52Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=HfACrKJ_Y2w"
+                },
+                {
+                    "id": "xxpc-HPKN28",
+                    "title": "Statistics - A Full University Course on Data Science Basics",
+                    "thumbnail": "https://i.ytimg.com/vi/xxpc-HPKN28/maxresdefault.jpg",
+                    "publishedAt": "2020-09-14T13:36:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=xxpc-HPKN28"
+                },
+                {
+                    "id": "JnTa9XtvmfI",
+                    "title": "Linear Algebra - Full College Course",
+                    "thumbnail": "https://i.ytimg.com/vi/JnTa9XtvmfI/maxresdefault.jpg",
+                    "publishedAt": "2020-11-19T14:15:14Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=JnTa9XtvmfI"
+                },
+                {
+                    "id": "LwCRRUa8yTU",
+                    "title": "College Algebra - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/LwCRRUa8yTU/maxresdefault.jpg",
+                    "publishedAt": "2020-07-24T04:37:39Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=LwCRRUa8yTU"
+                },
+                {
+                    "id": "7gigNsz4Oe8",
+                    "title": "Calculus 2 - Full College Course",
+                    "thumbnail": "https://i.ytimg.com/vi/7gigNsz4Oe8/maxresdefault.jpg",
+                    "publishedAt": "2020-09-15T13:11:43Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=7gigNsz4Oe8"
+                },
+                {
+                    "id": "Y8oZtFYweTY",
+                    "title": "College Precalculus – Full Course with Python Code",
+                    "thumbnail": "https://i.ytimg.com/vi/Y8oZtFYweTY/maxresdefault.jpg",
+                    "publishedAt": "2024-05-16T15:11:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Y8oZtFYweTY"
+                },
+                {
+                    "id": "rSjt1E9WHaQ",
+                    "title": "Linear Algebra Course – Mathematics for Machine Learning and Generative AI",
+                    "thumbnail": "https://i.ytimg.com/vi/rSjt1E9WHaQ/maxresdefault.jpg",
+                    "publishedAt": "2024-06-03T18:38:35Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=rSjt1E9WHaQ"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "DevOps Courses",
+            "thumbnail": "https://i.ytimg.com/vi/SOTamWNgDKc/maxresdefault.jpg",
+            "data": "2020-06-12T14:03:01Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkzvvpY12KkfiIGso9A_Ixs",
+            "videos": [
+                {
+                    "id": "SOTamWNgDKc",
+                    "title": "AWS Certified Cloud Practitioner Certification Course (CLF-C01) - Pass the Exam!",
+                    "thumbnail": "https://i.ytimg.com/vi/SOTamWNgDKc/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:18:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc"
+                },
+                {
+                    "id": "fqMOX6JJhGo",
+                    "title": "Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers",
+                    "thumbnail": "https://i.ytimg.com/vi/fqMOX6JJhGo/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:18:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo"
+                },
+                {
+                    "id": "RrKRN9zRBWs",
+                    "title": "AWS Certified Developer - Associate 2020 (PASS THE EXAM!)",
+                    "thumbnail": "https://i.ytimg.com/vi/RrKRN9zRBWs/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:18:19Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RrKRN9zRBWs"
+                },
+                {
+                    "id": "j5Zsa_eOXeY",
+                    "title": "DevOps Engineering Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/j5Zsa_eOXeY/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=j5Zsa_eOXeY"
+                },
+                {
+                    "id": "Wvf0mBNGjXY",
+                    "title": "DevOps Prerequisites Course - Getting started with DevOps",
+                    "thumbnail": "https://i.ytimg.com/vi/Wvf0mBNGjXY/maxresdefault.jpg",
+                    "publishedAt": "2020-06-12T14:03:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Wvf0mBNGjXY"
+                },
+                {
+                    "id": "d6WC5n9G_sM",
+                    "title": "Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!)",
+                    "thumbnail": "https://i.ytimg.com/vi/d6WC5n9G_sM/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=d6WC5n9G_sM"
+                },
+                {
+                    "id": "PGyhBwLyK2U",
+                    "title": "DevOps with GitLab CI Course - Build Pipelines and Deploy to AWS",
+                    "thumbnail": "https://i.ytimg.com/vi/PGyhBwLyK2U/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=PGyhBwLyK2U"
+                },
+                {
+                    "id": "jZx8PMQjobk",
+                    "title": "Azure Developer Associate (AZ-204) — Full Course Pass the Exam!",
+                    "thumbnail": "https://i.ytimg.com/vi/jZx8PMQjobk/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jZx8PMQjobk"
+                },
+                {
+                    "id": "9zUHg7xjIqQ",
+                    "title": "Learn Docker - DevOps with Node.js & Express",
+                    "thumbnail": "https://i.ytimg.com/vi/9zUHg7xjIqQ/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=9zUHg7xjIqQ"
+                },
+                {
+                    "id": "_gWfFEuert8",
+                    "title": "OpenStack Tutorial – Operate Your Own Private Cloud (Full Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/_gWfFEuert8/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=_gWfFEuert8"
+                },
+                {
+                    "id": "iRaai1IBlB0",
+                    "title": "Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/iRaai1IBlB0/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=iRaai1IBlB0"
+                },
+                {
+                    "id": "AplluksKvzI",
+                    "title": "CNCF Kubernetes and Cloud Native Associate Certification Course (KCNA) - Pass the Exam!",
+                    "thumbnail": "https://i.ytimg.com/vi/AplluksKvzI/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=AplluksKvzI"
+                },
+                {
+                    "id": "f4idgaq2VqA",
+                    "title": "Jenkins Tutorial – How to Deploy a Test Server with Docker + Linux (Full Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/f4idgaq2VqA/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=f4idgaq2VqA"
+                },
+                {
+                    "id": "T-H4nJQyMig",
+                    "title": "AWS Cloud Development Kit (CDK) Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/T-H4nJQyMig/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=T-H4nJQyMig"
+                },
+                {
+                    "id": "F5KJVuii0Yw",
+                    "title": "Web App Vulnerabilities - DevSecOps Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/F5KJVuii0Yw/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=F5KJVuii0Yw"
+                },
+                {
+                    "id": "EtEb40LE5zQ",
+                    "title": "Infrastructure as Code - Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/EtEb40LE5zQ/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=EtEb40LE5zQ"
+                },
+                {
+                    "id": "zhJLVFR3pE8",
+                    "title": "Code Your Own Heroku Clone with Python – Provision Infrastructure Programmatically Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/zhJLVFR3pE8/maxresdefault.jpg",
+                    "publishedAt": "2022-09-16T15:16:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zhJLVFR3pE8"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Deep Learning with PyTorch Live Course",
+            "thumbnail": "https://i.ytimg.com/vi/vo_fUOk-IKk/maxresdefault.jpg",
+            "data": "2020-05-26T20:43:01Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbm3T2Eq1_KgloC7ogdXxdRa",
+            "videos": [
+                {
+                    "id": "vo_fUOk-IKk",
+                    "title": "Deep Learning with PyTorch Live Course - Tensors, Gradient Descent & Linear Regression (Part 1 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/vo_fUOk-IKk/maxresdefault.jpg",
+                    "publishedAt": "2020-05-26T20:43:17Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=vo_fUOk-IKk"
+                },
+                {
+                    "id": "4ZZrP68yXCI",
+                    "title": "Deep Learning with PyTorch Live Course - Working with Images & Logistic Regression (Part 2 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/4ZZrP68yXCI/maxresdefault.jpg",
+                    "publishedAt": "2020-05-26T20:44:25Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=4ZZrP68yXCI"
+                },
+                {
+                    "id": "9suSsTVhYuw",
+                    "title": "Deep Learning with PyTorch Live Course - Training Deep Neural Networks on GPUs (Part 3 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/9suSsTVhYuw/maxresdefault.jpg",
+                    "publishedAt": "2020-06-04T13:16:55Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=9suSsTVhYuw"
+                },
+                {
+                    "id": "TN9fMYQxw4E",
+                    "title": "Deep Learning with PyTorch Live Course - Image Classification with CNNs (Part 4 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/TN9fMYQxw4E/maxresdefault.jpg",
+                    "publishedAt": "2020-06-13T14:49:03Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=TN9fMYQxw4E"
+                },
+                {
+                    "id": "sJF6PiAjE1M",
+                    "title": "Deep Learning with PyTorch Live Course - ResNet, Regularization and Data Augmentation (Part 5 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/sJF6PiAjE1M/maxresdefault.jpg",
+                    "publishedAt": "2020-06-19T19:15:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=sJF6PiAjE1M"
+                },
+                {
+                    "id": "ABaZ_tecZ3U",
+                    "title": "Deep Learning with PyTorch Live Course - GANs for Image Generation (Part 6 of 6)",
+                    "thumbnail": "https://i.ytimg.com/vi/ABaZ_tecZ3U/maxresdefault.jpg",
+                    "publishedAt": "2020-06-27T15:22:00Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ABaZ_tecZ3U"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Popular Programming Courses",
+            "thumbnail": "https://i.ytimg.com/vi/8mAITcNt710/maxresdefault.jpg",
+            "data": "2019-09-27T13:25:04Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC",
+            "videos": [
+                {
+                    "id": "8mAITcNt710",
+                    "title": "Harvard CS50 – Full Computer Science University Course",
+                    "thumbnail": "https://i.ytimg.com/vi/8mAITcNt710/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:12:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=8mAITcNt710"
+                },
+                {
+                    "id": "8jLOx1hD3_o",
+                    "title": "C++ Programming Course - Beginner to Advanced",
+                    "thumbnail": "https://i.ytimg.com/vi/8jLOx1hD3_o/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:15:54Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+                },
+                {
+                    "id": "zJSY8tbf_ys",
+                    "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+                    "thumbnail": "https://i.ytimg.com/vi/zJSY8tbf_ys/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:12:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys"
+                },
+                {
+                    "id": "WXsD0ZgxjRw",
+                    "title": "APIs for Beginners 2023 - How to use an API (Full Course / Tutorial)",
+                    "thumbnail": "https://i.ytimg.com/vi/WXsD0ZgxjRw/maxresdefault.jpg",
+                    "publishedAt": "2023-02-06T17:02:55Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw"
+                },
+                {
+                    "id": "i_LwzRVP7bg",
+                    "title": "Machine Learning for Everybody – Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/i_LwzRVP7bg/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:15:09Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg"
+                },
+                {
+                    "id": "y2kg3MOk1sY",
+                    "title": "Computer & Technology Basics Course for Absolute Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/y2kg3MOk1sY/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:12:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=y2kg3MOk1sY"
+                },
+                {
+                    "id": "PkZNo7MFNFg",
+                    "title": "Learn JavaScript - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
+                    "publishedAt": "2019-09-27T13:26:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+                },
+                {
+                    "id": "RBSGKlAvoiM",
+                    "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
+                    "thumbnail": "https://i.ytimg.com/vi/RBSGKlAvoiM/maxresdefault.jpg",
+                    "publishedAt": "2019-09-27T13:25:51Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM"
+                },
+                {
+                    "id": "rfscVS0vtbw",
+                    "title": "Learn Python - Full Course for Beginners [Tutorial]",
+                    "thumbnail": "https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg",
+                    "publishedAt": "2019-09-27T13:26:08Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+                },
+                {
+                    "id": "VPvVD8t02U8",
+                    "title": "Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/VPvVD8t02U8/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:16:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=VPvVD8t02U8"
+                },
+                {
+                    "id": "Rs_rAxEsAvI",
+                    "title": "Self-Driving Car with JavaScript Course – Neural Networks and Machine Learning",
+                    "thumbnail": "https://i.ytimg.com/vi/Rs_rAxEsAvI/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:12:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Rs_rAxEsAvI"
+                },
+                {
+                    "id": "nu_pCVPKzTk",
+                    "title": "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)",
+                    "thumbnail": "https://i.ytimg.com/vi/nu_pCVPKzTk/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:12:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+                },
+                {
+                    "id": "HXV3zeQKqGY",
+                    "title": "SQL Tutorial - Full Database Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/HXV3zeQKqGY/maxresdefault.jpg",
+                    "publishedAt": "2019-09-27T13:26:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "App Development Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/AvbuIRg8_Jg/maxresdefault.jpg",
+            "data": "2019-05-17T13:18:19Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkPz27wpMpBdNbF8wzH_lWh",
+            "videos": [
+                {
+                    "id": "AvbuIRg8_Jg",
+                    "title": "Ionic Framework 4 - Full Tutorial - iOS / Android App Development",
+                    "thumbnail": "https://i.ytimg.com/vi/AvbuIRg8_Jg/maxresdefault.jpg",
+                    "publishedAt": "2019-05-17T13:18:33Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=AvbuIRg8_Jg"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "PHP Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/ImtZ5yENzgE/maxresdefault.jpg",
+            "data": "2019-05-07T12:26:06Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkoMsX4hgwxbJZW4aB0cbaB",
+            "videos": [
+                {
+                    "id": "ImtZ5yENzgE",
+                    "title": "Laravel PHP Framework Tutorial - Full Course for Beginners (2019)",
+                    "thumbnail": "https://i.ytimg.com/vi/ImtZ5yENzgE/maxresdefault.jpg",
+                    "publishedAt": "2019-05-07T12:38:26Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ImtZ5yENzgE"
+                },
+                {
+                    "id": "OK_JCtrrv-c",
+                    "title": "PHP Programming Language Tutorial - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/OK_JCtrrv-c/maxresdefault.jpg",
+                    "publishedAt": "2019-05-07T12:40:16Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=OK_JCtrrv-c"
+                },
+                {
+                    "id": "whuIf33v2Ug",
+                    "title": "Yii2 PHP Framework - Full Course (Build a YouTube Clone)",
+                    "thumbnail": "https://i.ytimg.com/vi/whuIf33v2Ug/maxresdefault.jpg",
+                    "publishedAt": "2020-04-28T13:41:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=whuIf33v2Ug"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Vue.js",
+            "thumbnail": "https://i.ytimg.com/vi/4deVCNJq3qc/maxresdefault.jpg",
+            "data": "2019-03-19T13:56:38Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkE0Or3HVMRTy-mq_wFUNVv",
+            "videos": [
+                {
+                    "id": "4deVCNJq3qc",
+                    "title": "Learn Vue.js - Full Course for Beginners - 2019",
+                    "thumbnail": "https://i.ytimg.com/vi/4deVCNJq3qc/maxresdefault.jpg",
+                    "publishedAt": "2019-03-19T13:57:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=4deVCNJq3qc"
+                },
+                {
+                    "id": "4z3EMCc4bP4",
+                    "title": "Learn GraphQL with Laravel and Vue.js - Full Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/4z3EMCc4bP4/maxresdefault.jpg",
+                    "publishedAt": "2019-07-10T14:40:31Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=4z3EMCc4bP4"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Data Science",
+            "thumbnail": "https://i.ytimg.com/vi/ua-CiDNNj30/maxresdefault.jpg",
+            "data": "2019-01-29T17:38:06Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1",
+            "videos": [
+                {
+                    "id": "ua-CiDNNj30",
+                    "title": "Learn Data Science Tutorial - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/ua-CiDNNj30/maxresdefault.jpg",
+                    "publishedAt": "2019-05-30T12:40:38Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ua-CiDNNj30"
+                },
+                {
+                    "id": "xxpc-HPKN28",
+                    "title": "Statistics - A Full University Course on Data Science Basics",
+                    "thumbnail": "https://i.ytimg.com/vi/xxpc-HPKN28/maxresdefault.jpg",
+                    "publishedAt": "2019-06-12T14:59:57Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=xxpc-HPKN28"
+                },
+                {
+                    "id": "LHBE6Q9XlzI",
+                    "title": "Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)",
+                    "thumbnail": "https://i.ytimg.com/vi/LHBE6Q9XlzI/maxresdefault.jpg",
+                    "publishedAt": "2021-05-25T18:02:37Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI"
+                },
+                {
+                    "id": "GPVsHOlRBBI",
+                    "title": "Data Analysis with Python Course - Numpy, Pandas, Data Visualization",
+                    "thumbnail": "https://i.ytimg.com/vi/GPVsHOlRBBI/maxresdefault.jpg",
+                    "publishedAt": "2021-10-21T19:13:21Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=GPVsHOlRBBI"
+                },
+                {
+                    "id": "r-uOLxNrNk8",
+                    "title": "Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)",
+                    "thumbnail": "https://i.ytimg.com/vi/r-uOLxNrNk8/maxresdefault.jpg",
+                    "publishedAt": "2020-04-15T13:23:15Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8"
+                },
+                {
+                    "id": "JwSS70SZdyM",
+                    "title": "Build 12 Data Science Apps with Python and Streamlit - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/JwSS70SZdyM/maxresdefault.jpg",
+                    "publishedAt": "2021-05-25T18:02:37Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=JwSS70SZdyM"
+                },
+                {
+                    "id": "XU5pw3QRYjQ",
+                    "title": "Data Science Hands-On Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/XU5pw3QRYjQ/maxresdefault.jpg",
+                    "publishedAt": "2021-05-25T18:02:37Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=XU5pw3QRYjQ"
+                },
+                {
+                    "id": "_8V5o2UHG0E",
+                    "title": "Data Visualization with D3.js - Full Tutorial Course",
+                    "thumbnail": "https://i.ytimg.com/vi/_8V5o2UHG0E/maxresdefault.jpg",
+                    "publishedAt": "2019-07-01T12:43:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=_8V5o2UHG0E"
+                },
+                {
+                    "id": "9uFQECk30kA",
+                    "title": "R Shiny for Data Science Tutorial – Build Interactive Data-Driven Web Apps",
+                    "thumbnail": "https://i.ytimg.com/vi/9uFQECk30kA/maxresdefault.jpg",
+                    "publishedAt": "2021-10-21T19:12:21Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=9uFQECk30kA"
+                },
+                {
+                    "id": "_V8eKsto3Ug",
+                    "title": "R Programming Tutorial - Learn the Basics of Statistical Computing",
+                    "thumbnail": "https://i.ytimg.com/vi/_V8eKsto3Ug/maxresdefault.jpg",
+                    "publishedAt": "2019-06-06T14:12:42Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+                },
+                {
+                    "id": "jBlTQjcKuaY",
+                    "title": "Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis",
+                    "thumbnail": "https://i.ytimg.com/vi/jBlTQjcKuaY/maxresdefault.jpg",
+                    "publishedAt": "2021-10-21T19:12:53Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jBlTQjcKuaY"
+                },
+                {
+                    "id": "N6BghzuFLIg",
+                    "title": "Intro to Data Science - Crash Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/N6BghzuFLIg/maxresdefault.jpg",
+                    "publishedAt": "2019-03-04T18:20:38Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=N6BghzuFLIg"
+                },
+                {
+                    "id": "CNuI8OWsppg",
+                    "title": "Applied Deep Learning with PyTorch - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/CNuI8OWsppg/maxresdefault.jpg",
+                    "publishedAt": "2019-01-31T18:02:51Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=CNuI8OWsppg"
+                },
+                {
+                    "id": "TPMlZxRRaBQ",
+                    "title": "Tableau for Data Science and Data Visualization - Crash Course Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/TPMlZxRRaBQ/maxresdefault.jpg",
+                    "publishedAt": "2019-01-29T17:38:13Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=TPMlZxRRaBQ"
+                },
+                {
+                    "id": "mZomeS0tLxY",
+                    "title": "jamovi for Data Analysis - Full Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/mZomeS0tLxY/maxresdefault.jpg",
+                    "publishedAt": "2019-08-29T14:47:24Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=mZomeS0tLxY"
+                },
+                {
+                    "id": "EsDFiZPljYo",
+                    "title": "Data Analysis with Python: Part 1 of 6 (Live Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/EsDFiZPljYo/maxresdefault.jpg",
+                    "publishedAt": "2020-08-27T20:29:41Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=EsDFiZPljYo"
+                },
+                {
+                    "id": "jcTj6FgWOpo",
+                    "title": "Data Analytics Crash Course: Teach Yourself in 30 Days",
+                    "thumbnail": "https://i.ytimg.com/vi/jcTj6FgWOpo/maxresdefault.jpg",
+                    "publishedAt": "2021-10-21T19:12:33Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jcTj6FgWOpo"
+                },
+                {
+                    "id": "WcDaZ67TVRo",
+                    "title": "Data Analysis with Python for Excel Users - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/WcDaZ67TVRo/maxresdefault.jpg",
+                    "publishedAt": "2021-11-24T15:29:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WcDaZ67TVRo"
+                },
+                {
+                    "id": "xkBheRZTkaw",
+                    "title": "Data Visualization with D3 – Full Course for Beginners [2022]",
+                    "thumbnail": "https://i.ytimg.com/vi/xkBheRZTkaw/maxresdefault.jpg",
+                    "publishedAt": "2022-11-17T20:32:13Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=xkBheRZTkaw"
+                },
+                {
+                    "id": "sD468LfeVdc",
+                    "title": "Data Science Job Interview – Full Mock Interview",
+                    "thumbnail": "https://i.ytimg.com/vi/sD468LfeVdc/maxresdefault.jpg",
+                    "publishedAt": "2023-04-16T17:43:25Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=sD468LfeVdc"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Ethical Hacking",
+            "thumbnail": "https://i.ytimg.com/vi/3Kq1MIfTWCE/maxresdefault.jpg",
+            "data": "2019-01-16T14:17:31Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu",
+            "videos": [
+                {
+                    "id": "3Kq1MIfTWCE",
+                    "title": "Full Ethical Hacking Course - Network Penetration Testing for Beginners (2019)",
+                    "thumbnail": "https://i.ytimg.com/vi/3Kq1MIfTWCE/maxresdefault.jpg",
+                    "publishedAt": "2019-07-30T15:53:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+                },
+                {
+                    "id": "uIkxsBgkpj8",
+                    "title": "Improve Cybersecurity Skills with CTFs - PicoCTF Walkthrough (2018)",
+                    "thumbnail": "https://i.ytimg.com/vi/uIkxsBgkpj8/maxresdefault.jpg",
+                    "publishedAt": "2019-01-16T14:18:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=uIkxsBgkpj8"
+                },
+                {
+                    "id": "2_lswM1S264",
+                    "title": "Ethical Hacking 101: Web App Penetration Testing - a full course for beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/2_lswM1S264/maxresdefault.jpg",
+                    "publishedAt": "2019-02-07T19:34:01Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=2_lswM1S264"
+                },
+                {
+                    "id": "lZAoFs75_cs",
+                    "title": "Linux for Ethical Hackers (Kali Linux Tutorial)",
+                    "thumbnail": "https://i.ytimg.com/vi/lZAoFs75_cs/maxresdefault.jpg",
+                    "publishedAt": "2019-07-05T16:33:38Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=lZAoFs75_cs"
+                },
+                {
+                    "id": "TbMKwl11itQ",
+                    "title": "Create a Keylogger with Python - Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/TbMKwl11itQ/maxresdefault.jpg",
+                    "publishedAt": "2019-01-17T14:46:50Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=TbMKwl11itQ"
+                },
+                {
+                    "id": "rO8-cgtkZSw",
+                    "title": "Writing Code like a Real Hacker (VS Code Macro Extension)",
+                    "thumbnail": "https://i.ytimg.com/vi/rO8-cgtkZSw/maxresdefault.jpg",
+                    "publishedAt": "2019-02-07T20:04:39Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=rO8-cgtkZSw"
+                },
+                {
+                    "id": "S6S5JF6Gou0",
+                    "title": "Penetration Testing: Gophish Tutorial (Phishing Framework)",
+                    "thumbnail": "https://i.ytimg.com/vi/S6S5JF6Gou0/maxresdefault.jpg",
+                    "publishedAt": "2019-06-17T13:59:11Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=S6S5JF6Gou0"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "JavaScript Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
+            "data": "2018-12-07T13:47:20Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V",
+            "videos": [
+                {
+                    "id": "PkZNo7MFNFg",
+                    "title": "Learn JavaScript - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
+                    "publishedAt": "2018-12-18T19:31:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+                },
+                {
+                    "id": "5fb2aPlgoys",
+                    "title": "JavaScript DOM Manipulation – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/5fb2aPlgoys/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=5fb2aPlgoys"
+                },
+                {
+                    "id": "GFO_txvwK_c",
+                    "title": "JavaScript Game Development Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/GFO_txvwK_c/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=GFO_txvwK_c"
+                },
+                {
+                    "id": "ec8vSKJuZTk",
+                    "title": "Learn JavaScript by Building 7 Games - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/ec8vSKJuZTk/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ec8vSKJuZTk"
+                },
+                {
+                    "id": "3PHXvlpOkf4",
+                    "title": "Build 15 JavaScript Projects - Vanilla JavaScript Course",
+                    "thumbnail": "https://i.ytimg.com/vi/3PHXvlpOkf4/maxresdefault.jpg",
+                    "publishedAt": "2020-06-09T16:16:53Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=3PHXvlpOkf4"
+                },
+                {
+                    "id": "ZYb_ZU8LNxs",
+                    "title": "Asynchronous JavaScript Course (Async/Await, Promises, Callbacks)",
+                    "thumbnail": "https://i.ytimg.com/vi/ZYb_ZU8LNxs/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ZYb_ZU8LNxs"
+                },
+                {
+                    "id": "jS4aFq5-91M",
+                    "title": "JavaScript Programming - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/jS4aFq5-91M/maxresdefault.jpg",
+                    "publishedAt": "2021-06-21T16:38:48Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jS4aFq5-91M"
+                },
+                {
+                    "id": "Rs_rAxEsAvI",
+                    "title": "Self-Driving Car with JavaScript Course – Neural Networks and Machine Learning",
+                    "thumbnail": "https://i.ytimg.com/vi/Rs_rAxEsAvI/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Rs_rAxEsAvI"
+                },
+                {
+                    "id": "nu_pCVPKzTk",
+                    "title": "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)",
+                    "thumbnail": "https://i.ytimg.com/vi/nu_pCVPKzTk/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:21:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Python Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/eWRfhZUzrAc/maxresdefault.jpg",
+            "data": "2018-10-31T14:11:15Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+            "videos": [
+                {
+                    "id": "eWRfhZUzrAc",
+                    "title": "Python for Beginners – Full Course [Programming Tutorial]",
+                    "thumbnail": "https://i.ytimg.com/vi/eWRfhZUzrAc/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:43Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=eWRfhZUzrAc"
+                },
+                {
+                    "id": "HGOBQPFzWKo",
+                    "title": "Intermediate Python Programming Course",
+                    "thumbnail": "https://i.ytimg.com/vi/HGOBQPFzWKo/maxresdefault.jpg",
+                    "publishedAt": "2020-08-27T17:23:04Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=HGOBQPFzWKo"
+                },
+                {
+                    "id": "8DvywoWv6fI",
+                    "title": "Python for Everybody - Full University Python Course",
+                    "thumbnail": "https://i.ytimg.com/vi/8DvywoWv6fI/maxresdefault.jpg",
+                    "publishedAt": "2019-05-02T12:05:57Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=8DvywoWv6fI"
+                },
+                {
+                    "id": "Ej_02ICOIgs",
+                    "title": "Object Oriented Programming with Python - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/Ej_02ICOIgs/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+                },
+                {
+                    "id": "LHBE6Q9XlzI",
+                    "title": "Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)",
+                    "thumbnail": "https://i.ytimg.com/vi/LHBE6Q9XlzI/maxresdefault.jpg",
+                    "publishedAt": "2020-06-02T13:48:04Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI"
+                },
+                {
+                    "id": "Qr4QMBUPxWo",
+                    "title": "Flask Course - Python Web Application Development",
+                    "thumbnail": "https://i.ytimg.com/vi/Qr4QMBUPxWo/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+                },
+                {
+                    "id": "o0XbHvKxw7Y",
+                    "title": "Django For Everybody - Full Python University Course",
+                    "thumbnail": "https://i.ytimg.com/vi/o0XbHvKxw7Y/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=o0XbHvKxw7Y"
+                },
+                {
+                    "id": "WcDaZ67TVRo",
+                    "title": "Data Analysis with Python for Excel Users - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/WcDaZ67TVRo/maxresdefault.jpg",
+                    "publishedAt": "2021-11-24T15:29:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WcDaZ67TVRo"
+                },
+                {
+                    "id": "YXPyB4XeYLA",
+                    "title": "Tkinter Course - Create Graphic User Interfaces in Python Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/YXPyB4XeYLA/maxresdefault.jpg",
+                    "publishedAt": "2019-11-19T13:43:27Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=YXPyB4XeYLA"
+                },
+                {
+                    "id": "0sOvCWFmrtA",
+                    "title": "Python API Development - Comprehensive Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/0sOvCWFmrtA/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+                },
+                {
+                    "id": "jBzwzrDvZ18",
+                    "title": "Python Backend Web Development Course (with Django)",
+                    "thumbnail": "https://i.ytimg.com/vi/jBzwzrDvZ18/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jBzwzrDvZ18"
+                },
+                {
+                    "id": "pkYVOmU3MgA",
+                    "title": "Data Structures and Algorithms in Python - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/pkYVOmU3MgA/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:25:02Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "React Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/DLX62G4lc44/maxresdefault.jpg",
+            "data": "2018-09-17T17:12:49Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC",
+            "videos": [
+                {
+                    "id": "DLX62G4lc44",
+                    "title": "Learn React JS - Full Course for Beginners - Tutorial 2019",
+                    "thumbnail": "https://i.ytimg.com/vi/DLX62G4lc44/maxresdefault.jpg",
+                    "publishedAt": "2018-12-18T16:21:22Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=DLX62G4lc44"
+                },
+                {
+                    "id": "wPQ1-33teR4",
+                    "title": "React Tutorial: Build an e-commerce site from scratch using React and Netlify",
+                    "thumbnail": "https://i.ytimg.com/vi/wPQ1-33teR4/maxresdefault.jpg",
+                    "publishedAt": "2019-01-15T17:03:45Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=wPQ1-33teR4"
+                },
+                {
+                    "id": "_CBYbEGvxYY",
+                    "title": "React Native Web Full App Tutorial - Build a Workout App for iOS, Android, and Web",
+                    "thumbnail": "https://i.ytimg.com/vi/_CBYbEGvxYY/maxresdefault.jpg",
+                    "publishedAt": "2019-03-13T15:07:43Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=_CBYbEGvxYY"
+                },
+                {
+                    "id": "PM0_Er3SvFQ",
+                    "title": "React Project Tutorial - Game of Life",
+                    "thumbnail": "https://i.ytimg.com/vi/PM0_Er3SvFQ/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=PM0_Er3SvFQ"
+                },
+                {
+                    "id": "zthIUs2w_c8",
+                    "title": "Learn React with Kent C. Dodds",
+                    "thumbnail": "https://i.ytimg.com/vi/zthIUs2w_c8/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zthIUs2w_c8"
+                },
+                {
+                    "id": "NnpISZANByg",
+                    "title": "React Beginners Tutorial - Build an Autocomplete Text Box",
+                    "thumbnail": "https://i.ytimg.com/vi/NnpISZANByg/maxresdefault.jpg",
+                    "publishedAt": "2018-11-20T20:20:51Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=NnpISZANByg"
+                },
+                {
+                    "id": "m_mtV4YaI8c",
+                    "title": "React Component Lifecycle - Hooks / Methods Explained",
+                    "thumbnail": "https://i.ytimg.com/vi/m_mtV4YaI8c/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=m_mtV4YaI8c"
+                },
+                {
+                    "id": "x_fHXt9V3zQ",
+                    "title": "Build a Chat Application using React, Redux, Redux-Saga, and Web Sockets - Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/x_fHXt9V3zQ/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=x_fHXt9V3zQ"
+                },
+                {
+                    "id": "1rIP81hjs2U",
+                    "title": "Live Workshop: Basics of ReactJS",
+                    "thumbnail": "https://i.ytimg.com/vi/1rIP81hjs2U/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=1rIP81hjs2U"
+                },
+                {
+                    "id": "6Ied4aZxUzc",
+                    "title": "React Fundamentals - Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/6Ied4aZxUzc/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=6Ied4aZxUzc"
+                },
+                {
+                    "id": "jFNHerJqvFw",
+                    "title": "Build a Chat App - React Tutorial Course",
+                    "thumbnail": "https://i.ytimg.com/vi/jFNHerJqvFw/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=jFNHerJqvFw"
+                },
+                {
+                    "id": "a-JKj7m2LIo",
+                    "title": "Build a chat application like Slack - React / JavaScript Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/a-JKj7m2LIo/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=a-JKj7m2LIo"
+                },
+                {
+                    "id": "u9WOdMWjgso",
+                    "title": "Getting first React job without experience - Ask Preethi",
+                    "thumbnail": "https://i.ytimg.com/vi/u9WOdMWjgso/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=u9WOdMWjgso"
+                },
+                {
+                    "id": "Y0-qdp-XBJg",
+                    "title": "Protected Routes in React using React Router",
+                    "thumbnail": "https://i.ytimg.com/vi/Y0-qdp-XBJg/maxresdefault.jpg",
+                    "publishedAt": "2018-10-16T16:00:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Y0-qdp-XBJg"
+                },
+                {
+                    "id": "cdBvSlVCOXw",
+                    "title": "React Tutorial: Weather App with RESTful APIs",
+                    "thumbnail": "https://i.ytimg.com/vi/cdBvSlVCOXw/maxresdefault.jpg",
+                    "publishedAt": "2019-01-23T14:57:05Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=cdBvSlVCOXw"
+                },
+                {
+                    "id": "QqLkkBKVDyM",
+                    "title": "React Basics - Beau teaches JavaScript",
+                    "thumbnail": "https://i.ytimg.com/vi/QqLkkBKVDyM/maxresdefault.jpg",
+                    "publishedAt": "2018-09-17T17:14:23Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=QqLkkBKVDyM"
+                },
+                {
+                    "id": "tvfeBLMA_Q4",
+                    "title": "APIs in React Tutorial - Recipe App using React Router",
+                    "thumbnail": "https://i.ytimg.com/vi/tvfeBLMA_Q4/maxresdefault.jpg",
+                    "publishedAt": "2019-04-25T15:01:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=tvfeBLMA_Q4"
+                },
+                {
+                    "id": "kzWIUX3CpuI",
+                    "title": "The Great Gatsby Bootcamp - Full Gatsby.js Tutorial Course",
+                    "thumbnail": "https://i.ytimg.com/vi/kzWIUX3CpuI/maxresdefault.jpg",
+                    "publishedAt": "2019-05-15T14:00:17Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=kzWIUX3CpuI"
+                },
+                {
+                    "id": "m_u6P5k0vP0",
+                    "title": "Full Stack React & Firebase Tutorial - Build a social media app",
+                    "thumbnail": "https://i.ytimg.com/vi/m_u6P5k0vP0/maxresdefault.jpg",
+                    "publishedAt": "2019-06-24T12:36:41Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=m_u6P5k0vP0"
+                },
+                {
+                    "id": "I250xdtUvy8",
+                    "title": "Intermediate React and Firebase Tutorial - Build an Evernote Clone",
+                    "thumbnail": "https://i.ytimg.com/vi/I250xdtUvy8/maxresdefault.jpg",
+                    "publishedAt": "2019-07-15T13:15:03Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=I250xdtUvy8"
+                },
+                {
+                    "id": "iVRO0toVdYM",
+                    "title": "React Hooks Tutorial - A Crash Course on Styled Components, JSX, React Router, and HOC",
+                    "thumbnail": "https://i.ytimg.com/vi/iVRO0toVdYM/maxresdefault.jpg",
+                    "publishedAt": "2019-07-17T15:21:30Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=iVRO0toVdYM"
+                },
+                {
+                    "id": "LXJOvkVYQqA",
+                    "title": "In-Depth React Tutorial: Build a Hotel Reservation Site (with Contentful and Netlify)",
+                    "thumbnail": "https://i.ytimg.com/vi/LXJOvkVYQqA/maxresdefault.jpg",
+                    "publishedAt": "2019-08-02T13:01:15Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=LXJOvkVYQqA"
+                },
+                {
+                    "id": "ZGOaCxX8HIU",
+                    "title": "How to Build Tetris in React - GameDev Tutorial (with React Hooks!)",
+                    "thumbnail": "https://i.ytimg.com/vi/ZGOaCxX8HIU/maxresdefault.jpg",
+                    "publishedAt": "2019-08-14T15:42:14Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ZGOaCxX8HIU"
+                },
+                {
+                    "id": "hT3j87FMR6M",
+                    "title": "Intermediate React Tutorial - Todoist Clone (with Firebase, Custom Hooks, SCSS, React Testing)",
+                    "thumbnail": "https://i.ytimg.com/vi/hT3j87FMR6M/maxresdefault.jpg",
+                    "publishedAt": "2019-08-27T12:17:37Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=hT3j87FMR6M"
+                },
+                {
+                    "id": "wEVjaXK4sYQ",
+                    "title": "Learn React Native Gestures and Animations - Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/wEVjaXK4sYQ/maxresdefault.jpg",
+                    "publishedAt": "2020-06-05T14:39:25Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=wEVjaXK4sYQ"
+                },
+                {
+                    "id": "F2JCjVSZlG0",
+                    "title": "React / Typescript Tutorial - Build a Quiz App",
+                    "thumbnail": "https://i.ytimg.com/vi/F2JCjVSZlG0/maxresdefault.jpg",
+                    "publishedAt": "2020-07-09T14:13:43Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=F2JCjVSZlG0"
+                },
+                {
+                    "id": "4UZrsTqkcW4",
+                    "title": "Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks",
+                    "thumbnail": "https://i.ytimg.com/vi/4UZrsTqkcW4/maxresdefault.jpg",
+                    "publishedAt": "2020-10-06T14:16:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=4UZrsTqkcW4"
+                },
+                {
+                    "id": "a_7Z7C_JCyo",
+                    "title": "Code 15 React Projects - Complete Course",
+                    "thumbnail": "https://i.ytimg.com/vi/a_7Z7C_JCyo/maxresdefault.jpg",
+                    "publishedAt": "2020-10-27T13:34:16Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=a_7Z7C_JCyo"
+                },
+                {
+                    "id": "nTeuhbP7wdE",
+                    "title": "React JS Course for Beginners - 2021 Tutorial",
+                    "thumbnail": "https://i.ytimg.com/vi/nTeuhbP7wdE/maxresdefault.jpg",
+                    "publishedAt": "2021-07-02T19:25:53Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "HTML and CSS Tutorials",
+            "thumbnail": "https://i.ytimg.com/vi/kUMe1FH4CHE/maxresdefault.jpg",
+            "data": "2018-10-15T15:36:13Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnSe1qUNMG7AbPmjIG54u88",
+            "videos": [
+                {
+                    "id": "kUMe1FH4CHE",
+                    "title": "Learn HTML – Full Tutorial for Beginners (2022)",
+                    "thumbnail": "https://i.ytimg.com/vi/kUMe1FH4CHE/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:29:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=kUMe1FH4CHE"
+                },
+                {
+                    "id": "a_iQb1lnAEQ",
+                    "title": "Learn HTML & CSS – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/a_iQb1lnAEQ/maxresdefault.jpg",
+                    "publishedAt": "2023-04-07T19:45:36Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=a_iQb1lnAEQ"
+                },
+                {
+                    "id": "1Rs2ND1ryYc",
+                    "title": "CSS Tutorial - Zero to Hero (Complete Course)",
+                    "thumbnail": "https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg",
+                    "publishedAt": "2019-10-16T15:16:19Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
+                },
+                {
+                    "id": "SR5GxoFhIAU",
+                    "title": "HTML / CSS Tutorial – Create an Order Summary Component",
+                    "thumbnail": "https://i.ytimg.com/vi/SR5GxoFhIAU/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:29:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=SR5GxoFhIAU"
+                },
+                {
+                    "id": "zJSY8tbf_ys",
+                    "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+                    "thumbnail": "https://i.ytimg.com/vi/zJSY8tbf_ys/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:29:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys"
+                },
+                {
+                    "id": "OXGznpKZ_sA",
+                    "title": "CSS Tutorial – Full Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/OXGznpKZ_sA/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:30:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+                },
+                {
+                    "id": "GDGejH3SDNQ",
+                    "title": "HTML & Coding Introduction – Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/GDGejH3SDNQ/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:29:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=GDGejH3SDNQ"
+                },
+                {
+                    "id": "nu_pCVPKzTk",
+                    "title": "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)",
+                    "thumbnail": "https://i.ytimg.com/vi/nu_pCVPKzTk/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:29:40Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk"
+                },
+                {
+                    "id": "916GWv2Qs08",
+                    "title": "HTML Tutorial - Website Crash Course for Beginners",
+                    "thumbnail": "https://i.ytimg.com/vi/916GWv2Qs08/maxresdefault.jpg",
+                    "publishedAt": "2023-04-17T18:31:09Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=916GWv2Qs08"
+                },
+                {
+                    "id": "mU6anWqZJcc",
+                    "title": "Learn HTML5 and CSS3 From Scratch - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/mU6anWqZJcc/maxresdefault.jpg",
+                    "publishedAt": "2019-04-30T16:16:44Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=mU6anWqZJcc"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Computer Science Concepts",
+            "thumbnail": "https://i.ytimg.com/vi/RBSGKlAvoiM/maxresdefault.jpg",
+            "data": "2018-05-15T17:03:00Z",
+            "tags": [],
+            "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD",
+            "videos": [
+                {
+                    "id": "RBSGKlAvoiM",
+                    "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
+                    "thumbnail": "https://i.ytimg.com/vi/RBSGKlAvoiM/maxresdefault.jpg",
+                    "publishedAt": "2019-09-27T13:22:08Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM"
+                },
+                {
+                    "id": "AV_VYsJnHQQ",
+                    "title": "How do computers and the internet work? - Computer Science Basics",
+                    "thumbnail": "https://i.ytimg.com/vi/AV_VYsJnHQQ/maxresdefault.jpg",
+                    "publishedAt": "2018-09-19T16:27:44Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=AV_VYsJnHQQ"
+                },
+                {
+                    "id": "2SpuBqvNjHI",
+                    "title": "Maths for Programmers Tutorial - Full Course on Sets and Logic",
+                    "thumbnail": "https://i.ytimg.com/vi/2SpuBqvNjHI/maxresdefault.jpg",
+                    "publishedAt": "2018-10-01T15:56:06Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=2SpuBqvNjHI"
+                },
+                {
+                    "id": "LtoBGQPuu1c",
+                    "title": "Computer Science Terminology",
+                    "thumbnail": "https://i.ytimg.com/vi/LtoBGQPuu1c/maxresdefault.jpg",
+                    "publishedAt": "2018-11-08T18:16:58Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=LtoBGQPuu1c"
+                },
+                {
+                    "id": "WvXsY736Kz0",
+                    "title": "What do computer programmers actually do?",
+                    "thumbnail": "https://i.ytimg.com/vi/WvXsY736Kz0/maxresdefault.jpg",
+                    "publishedAt": "2018-11-27T15:03:35Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WvXsY736Kz0"
+                },
+                {
+                    "id": "6G_UQ0YepV8",
+                    "title": "7 Habits of Successful Software Engineers",
+                    "thumbnail": "https://i.ytimg.com/vi/6G_UQ0YepV8/maxresdefault.jpg",
+                    "publishedAt": "2018-11-19T15:55:34Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=6G_UQ0YepV8"
+                },
+                {
+                    "id": "C72fFjPya-8",
+                    "title": "Create a Kanban Board",
+                    "thumbnail": "https://i.ytimg.com/vi/C72fFjPya-8/maxresdefault.jpg",
+                    "publishedAt": "2018-10-19T14:44:47Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=C72fFjPya-8"
+                },
+                {
+                    "id": "WO6P92v61y4",
+                    "title": "Intro to Computer Networks - Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/WO6P92v61y4/maxresdefault.jpg",
+                    "publishedAt": "2018-10-17T15:56:51Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=WO6P92v61y4"
+                },
+                {
+                    "id": "Fw98L-kcRpc",
+                    "title": "How To Write User Stories, Epics, & Personas - Dev Life",
+                    "thumbnail": "https://i.ytimg.com/vi/Fw98L-kcRpc/maxresdefault.jpg",
+                    "publishedAt": "2018-10-03T14:37:52Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=Fw98L-kcRpc"
+                },
+                {
+                    "id": "iUjWjt4E6rs",
+                    "title": "What is a Daily Standup? - Dev Life",
+                    "thumbnail": "https://i.ytimg.com/vi/iUjWjt4E6rs/maxresdefault.jpg",
+                    "publishedAt": "2018-09-24T17:10:22Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=iUjWjt4E6rs"
+                },
+                {
+                    "id": "PfLBugPdgSk",
+                    "title": "Learn to Code: 5 Secret Weapons",
+                    "thumbnail": "https://i.ytimg.com/vi/PfLBugPdgSk/maxresdefault.jpg",
+                    "publishedAt": "2018-07-03T17:54:10Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=PfLBugPdgSk"
+                },
+                {
+                    "id": "j3XufmvEMiM",
+                    "title": "What are Microservices?",
+                    "thumbnail": "https://i.ytimg.com/vi/j3XufmvEMiM/maxresdefault.jpg",
+                    "publishedAt": "2018-05-15T17:03:17Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=j3XufmvEMiM"
+                },
+                {
+                    "id": "ZihKWQXRBmE",
+                    "title": "How to Code Like a Pro (with Dylan Israel)",
+                    "thumbnail": "https://i.ytimg.com/vi/ZihKWQXRBmE/maxresdefault.jpg",
+                    "publishedAt": "2019-03-07T18:16:59Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=ZihKWQXRBmE"
+                },
+                {
+                    "id": "09_LlHjoEiY",
+                    "title": "Algorithms Course - Graph Theory Tutorial from a Google Engineer",
+                    "thumbnail": "https://i.ytimg.com/vi/09_LlHjoEiY/maxresdefault.jpg",
+                    "publishedAt": "2019-10-09T15:52:07Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=09_LlHjoEiY"
+                },
+                {
+                    "id": "GZvSYJDk-us",
+                    "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+                    "thumbnail": "https://i.ytimg.com/vi/GZvSYJDk-us/maxresdefault.jpg",
+                    "publishedAt": "2019-12-17T14:54:42Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=GZvSYJDk-us"
+                },
+                {
+                    "id": "zOjov-2OZ0E",
+                    "title": "Introduction to Programming and Computer Science - Full Course",
+                    "thumbnail": "https://i.ytimg.com/vi/zOjov-2OZ0E/maxresdefault.jpg",
+                    "publishedAt": "2020-04-21T13:12:01Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=zOjov-2OZ0E"
+                },
+                {
+                    "id": "RGOj5yH7evk",
+                    "title": "Git and GitHub for Beginners - Crash Course",
+                    "thumbnail": "https://i.ytimg.com/vi/RGOj5yH7evk/maxresdefault.jpg",
+                    "publishedAt": "2020-05-28T14:57:32Z",
+                    "tags": [],
+                    "url": "https://www.youtube.com/watch?v=RGOj5yH7evk"
+                }
+            ]
+        }
+    ]
+}
