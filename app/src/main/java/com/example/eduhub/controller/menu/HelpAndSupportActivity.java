@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.eduhub.R;
 import com.example.eduhub.controller.certificate.CertificatesActivity;
 import com.example.eduhub.controller.main.HomePageActivity;
+import com.example.eduhub.controller.main.HomePageActivity_deprecated;
 
 public class HelpAndSupportActivity extends AppCompatActivity {
 
