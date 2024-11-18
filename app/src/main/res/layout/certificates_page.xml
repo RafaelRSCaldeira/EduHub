@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,49 +8,222 @@
     android:layout_height="match_parent"
     android:background="@color/bg_main_color">
 
-    <LinearLayout
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:layout_marginBottom="60dp">
 
-        <TextView
-            android:id="@+id/eduhubText"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="@dimen/home_page_width"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:contentDescription="@string/eduhub"
-            android:text="@string/eduhub"
-            android:textColor="@color/main_green"
-            android:textSize="@dimen/h1_size"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_home_page"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/eduhubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/eduhub"
+                android:textColor="@color/main_green"
+                android:textSize="@dimen/h1_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/my_certificates"
+                android:textSize="@dimen/h3_size"
+                android:textColor="@color/dark_color"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template"/>
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@null"
+                android:src="@drawable/certificate_template" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                tools:ignore="UselessLeaf" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/my_certificates"
-            android:textSize="@dimen/h3_size"
-            android:textColor="@color/dark_color"
-            android:textStyle="bold" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/bright_color"
+                app:contentInsetStart="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/homeContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/navIcon1"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_home"
+                            app:tint="@color/main_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/home"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/certificateContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical"
+                        android:background="@color/selected_color">
+
+                        <ImageView
+                            android:id="@+id/navIcon2"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_certificate"
+                            app:tint="@color/main_green"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/certificates"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/menuContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/navIcon3"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_menu"
+                            app:tint="@color/main_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/menu"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/versionText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|bottom"
-        android:layout_marginBottom="20dp"
-        android:contentDescription="@string/eduhub"
-        android:text="@string/version"
-        android:textColor="@color/light_gray"
-        android:alpha="0.5"
-        android:textSize="@dimen/h3_size"
-        android:textStyle="bold"/>
 
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

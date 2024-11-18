@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -22,49 +22,162 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/bg_main_color" />
 
+    <TextView
+        android:id="@+id/eduhubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_eduhub_2"
+        android:contentDescription="@string/eduhub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/eduhub"
+        android:textColor="@color/main_green"
+        android:textSize="@dimen/h1_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/aboutUsText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/eduhub"
+        android:text="@string/about_us_text"
+        android:textColor="@color/dark_color"
+        android:textSize="@dimen/h4_size"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eduhubText"
+        tools:ignore="UnusedAttribute" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/eduhubText"
+            android:id="@+id/versionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_top_eduhub_2"
+            android:layout_gravity="center"
             android:contentDescription="@string/eduhub"
-            android:text="@string/eduhub"
-            android:textColor="@color/main_green"
-            android:textSize="@dimen/h1_size"
+            android:text="@string/version"
+            android:textColor="@color/light_gray"
+            android:alpha="0.5"
+            android:textSize="@dimen/h4_size"
             android:textStyle="bold"/>
 
-        <TextView
-            android:id="@+id/aboutUsText"
-            android:layout_width="350dp"
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
-            android:contentDescription="@string/eduhub"
-            android:text="@string/about_us_text"
-            android:textColor="@color/dark_color"
-            android:textSize="@dimen/h4_size"
-            android:justificationMode="inter_word"
-            android:textStyle="bold"
-            tools:ignore="UnusedAttribute" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/bright_color"
+                app:contentInsetStart="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/homeContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/navIcon1"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_home"
+                            app:tint="@color/main_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/home"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/certificateContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/navIcon2"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_certificate"
+                            app:tint="@color/main_green"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/certificates"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/menuContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables"
+                        android:background="@color/selected_color">
+
+                        <ImageView
+                            android:id="@+id/navIcon3"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_menu"
+                            app:tint="@color/main_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/menu"
+                            android:textAlignment="center"
+                            android:textColor="@color/main_green" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/versionText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|bottom"
-        android:layout_marginBottom="@dimen/margin_bottom_version"
-        android:contentDescription="@string/eduhub"
-        android:text="@string/version"
-        android:textColor="@color/light_gray"
-        android:alpha="0.5"
-        android:textSize="@dimen/h3_size"
-        android:textStyle="bold"/>
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

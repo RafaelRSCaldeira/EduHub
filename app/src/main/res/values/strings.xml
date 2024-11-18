@@ -51,6 +51,7 @@
     <string name="personal_info">Personal Info</string>
     <string name="about_us">About Us</string>
     <string name="help_and_support">Help and Support</string>
+    <string name="logout">Log Out</string>
 
     <!-- HELP AND SUPPORT STRINGS -->
     <string name="welcome_support_text">Welcome to EduHub Support!</string>
@@ -58,11 +59,11 @@
     <string name="faq">Frequently Asked Questions (FAQ)</string>
     <string name="faq_questions">
         1.How do I create an account?&#10;
-        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.&#10;
+        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.&#10;&#10;
         2.I forgot my password. What should I do?&#10;
-        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.&#10;
+        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.&#10;&#10;
         3.How can I update my profile?&#10;
-        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.&#10;
+        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.&#10;&#10;
         4.What should I do if the app is not working correctly?&#10;
         - Try restarting the app. If the issue persists, check for updates available in your app store and install the latest version.
     </string>

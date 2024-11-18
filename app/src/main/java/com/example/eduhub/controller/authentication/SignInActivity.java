@@ -12,22 +12,22 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.main.HomePageActivity;
+import com.example.eduhub.controller.main.HomePageActivity_deprecated;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity {
 
     private TextView textViewSignUp, textViewForgotPass;
     private EditText editTextEmail;
     private TextInputEditText editTextPassword;
-    private Button btnSignIn, btnGoogle;
+    private AppCompatButton btnSignIn, btnGoogle;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
 
@@ -80,7 +80,7 @@ public class SignInActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(SignInActivity.this, "Login successful.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignInActivity.this, HomePageActivity.class);
+                                    Intent intent = new Intent(SignInActivity.this, HomePageActivity_deprecated.class);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();

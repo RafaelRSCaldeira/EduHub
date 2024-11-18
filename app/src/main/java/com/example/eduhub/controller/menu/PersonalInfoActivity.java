@@ -4,53 +4,31 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
+import android.widget.LinearLayout;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.authentication.LandingActivity;
-import com.example.eduhub.controller.authentication.SignInActivity;
 import com.example.eduhub.controller.certificate.CertificatesActivity;
 import com.example.eduhub.controller.main.HomePageActivity;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
-import java.util.Timer;
+import com.example.eduhub.controller.main.HomePageActivity_deprecated;
 
 public class PersonalInfoActivity extends AppCompatActivity {
 
-    private ImageButton btnHome, btnCertificate, btnBack;
+    private ImageButton btnBack;
+    private LinearLayout homeContainer, certificateContainer, menuContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_info_page);
 
-        btnHome = findViewById(R.id.button_home);
-        btnCertificate = findViewById(R.id.button_certificates);
+        setBackBtn();
+        bottomBar();
+    }
+
+    private void setBackBtn() {
         btnBack = findViewById(R.id.button_back);
-
-        btnHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(PersonalInfoActivity.this, HomePageActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        btnCertificate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(PersonalInfoActivity.this, CertificatesActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,7 +39,42 @@ public class PersonalInfoActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
 
+    private void bottomBar() {
+        homeContainer = findViewById(R.id.homeContainer);
+        certificateContainer = findViewById(R.id.certificateContainer);
+        menuContainer = findViewById(R.id.menuContainer);
+
+        homeContainer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PersonalInfoActivity.this, HomePageActivity.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+            }
+        });
+
+        certificateContainer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PersonalInfoActivity.this, CertificatesActivity.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+            }
+        });
+
+        menuContainer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PersonalInfoActivity.this, MenuActivity.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+            }
+        });
     }
 
 }

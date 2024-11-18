@@ -87,7 +87,7 @@
             android:textSize="@dimen/input_text_size"
             tools:ignore="TextContrastCheck" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/resetPassButton"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_height"

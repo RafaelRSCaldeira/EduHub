@@ -6,15 +6,16 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.main.HomePageActivity;
+import com.example.eduhub.controller.main.HomePageActivity_deprecated;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LandingActivity extends AppCompatActivity {
 
-    private Button signIn, signUp;
+    private AppCompatButton signIn, signUp;
     FirebaseAuth mAuth;
 
     @Override
@@ -24,7 +25,7 @@ public class LandingActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Intent intent = new Intent(LandingActivity.this, HomePageActivity.class);
+            Intent intent = new Intent(LandingActivity.this, HomePageActivity_deprecated.class);
             startActivity(intent);
         }
     }

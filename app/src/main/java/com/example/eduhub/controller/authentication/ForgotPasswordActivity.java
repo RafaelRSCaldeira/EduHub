@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -20,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ForgotPasswordActivity extends AppCompatActivity {
 
     private EditText editTextEmail;
-    private Button btnResetPassword;
+    private AppCompatButton btnResetPassword;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
 
