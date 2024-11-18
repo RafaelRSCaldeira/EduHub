@@ -9,102 +9,248 @@
     android:background="@color/bg_main_color">
 
 
-    <ScrollView
-        android:id="@+id/scrollView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="60dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="@dimen/home_page_width"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/margin_top_home_page"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:background="@color/main_green">
+
 
             <TextView
                 android:id="@+id/eduhubTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:text="@string/eduhub"
-                android:textColor="@color/main_green"
+                android:textColor="@color/white"
                 android:textSize="@dimen/h1_size"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="@string/my_certificates"
-                android:textSize="@dimen/h3_size"
-                android:textColor="@color/dark_color"
-                android:textStyle="bold"
-                android:layout_gravity="center"/>
-
-            <ImageView
-                android:id="@+id/img1"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img2"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template" />
-
-            <ImageView
-                android:id="@+id/img3"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img4"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img5"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img6"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img7"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template"/>
-
-            <ImageView
-                android:id="@+id/img8"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
-                android:contentDescription="@null"
-                android:src="@drawable/certificate_template" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                tools:ignore="UselessLeaf" />
+                android:textStyle="bold"/>
 
         </LinearLayout>
-    </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp">
+
+            <LinearLayout
+                android:layout_width="@dimen/home_page_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_home_page"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_certificates"
+                    android:textSize="@dimen/h3_size"
+                    android:textColor="@color/dark_color"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:paddingTop="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp"
+                    android:paddingBottom="20dp"
+                    android:gravity="top"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_certificate_container">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null"
+                        android:src="@drawable/certificate_template" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_button_white"
+                        android:src="@drawable/ic_right_arrow"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    tools:ignore="UselessLeaf" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"

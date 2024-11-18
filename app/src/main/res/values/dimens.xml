@@ -37,7 +37,7 @@
     <dimen name="margin_top_eduhub_2">30dp</dimen>
     <dimen name="margin_bottom_version">20dp</dimen>
 
-    <dimen name="home_page_space">30dp</dimen>
+    <dimen name="home_page_space">40dp</dimen>
     <dimen name="home_page_width">340dp</dimen>
     <dimen name="margin_top_home_page">40dp</dimen>
     <dimen name="home_page_title_size">20sp</dimen>
