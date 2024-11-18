@@ -18,42 +18,21 @@ import java.util.Timer;
 public class EmailVerificationActivity extends AppCompatActivity {
 
     FirebaseAuth auth = FirebaseAuth.getInstance();
-    FirebaseUser user = auth.getCurrentUser();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sign_in_page);
+        setContentView(R.layout.email_verification_page);
 
-        auth = FirebaseAuth.getInstance();
-        user = auth.getCurrentUser();
-        if(user == null) {
-            Toast.makeText(this, "Usuário não encontrado", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(EmailVerificationActivity.this, LandingActivity.class);
+        Timer timer = new Timer();
+        try {
+            timer.wait(3000);
+            Intent intent = new Intent(EmailVerificationActivity.this, SignInActivity.class);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             finish();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-        user.sendEmailVerification()
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        if (task.isSuccessful()) {
-                            Timer timer = new Timer();
-                            try {
-                                timer.wait(3000);
-                                Intent intent = new Intent(EmailVerificationActivity.this, SignInActivity.class);
-                                startActivity(intent);
-                                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-                                finish();
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
-                        }
-                    }
-                });
-
-
 
     }
 

@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
-import com.example.eduhub.controller.main.HomePageActivity_deprecated;
+import com.example.eduhub.controller.main.HomePageActivity;
 import com.example.eduhub.model.AuthenticationModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -84,7 +84,7 @@ public class SignInActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(SignInActivity.this, "Login successful.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignInActivity.this, HomePageActivity_deprecated.class);
+                                    Intent intent = new Intent(SignInActivity.this, HomePageActivity.class);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();

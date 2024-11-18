@@ -107,7 +107,7 @@ public class SignUpActivity extends AppCompatActivity {
                                     AuthenticationModel.saveValues(email, name);
                                     Toast.makeText(SignUpActivity.this, "Account created.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignUpActivity.this, HomePageActivity.class);
+                                    Intent intent = new Intent(SignUpActivity.this, EmailVerificationActivity.class);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();

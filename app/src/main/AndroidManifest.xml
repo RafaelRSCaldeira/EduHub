@@ -15,6 +15,9 @@
         android:theme="@style/Theme.EduHub"
         tools:targetApi="31">
         <activity
+            android:name=".controller.main.courses.Course1Activity"
+            android:exported="false" />
+        <activity
             android:name=".controller.authentication.LandingActivity"
             android:exported="false" />
         <activity
@@ -28,34 +31,34 @@
         </activity>
         <activity
             android:name=".controller.authentication.SignUpActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.authentication.SignInActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.authentication.ConfirmPassResetActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.authentication.EmailVerificationActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.authentication.ForgotPasswordActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.certificate.CertificatesActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.menu.HelpAndSupportActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.menu.AboutUsActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.menu.MenuActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".controller.menu.PersonalInfoActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

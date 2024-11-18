@@ -42,4 +42,9 @@
     <dimen name="margin_top_home_page">40dp</dimen>
     <dimen name="home_page_title_size">20sp</dimen>
     <dimen name="home_page_subtitle_size">16sp</dimen>
+    <dimen name="home_page_thumb_width">250dp</dimen>
+
+    <dimen name="course_page_width">340dp</dimen>
+    <dimen name="couse_video_height">60dp</dimen>
+    <dimen name="couse_title_margin_top">60dp</dimen>
 </resources>

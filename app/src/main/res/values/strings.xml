@@ -95,4 +95,25 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- COURSES STRINGS -->
+    <string name="couse_1">Back End Developer Learning Path</string>
+    <string name="couse_2">Front End Developer Learning Path</string>
+    <string name="couse_3">C / C++</string>
+    <string name="couse_4">Deep Learning with PyTorch Course - December 2020</string>
+    <string name="couse_5">Data Analysis with Python Course</string>
+    <string name="couse_6">Mathematics</string>
+    <string name="couse_7">DevOps Courses</string>
+    <string name="couse_8">Deep Learning with PyTorch Live Course</string>
+    <string name="couse_9">Popular Programming Courses</string>
+    <string name="couse_10">App Development Tutorials</string>
+    <string name="couse_11">PHP Tutorials</string>
+    <string name="couse_12">Vue.js</string>
+    <string name="couse_13">Data Science</string>
+    <string name="couse_14">Ethical Hacking</string>
+    <string name="couse_15">JavaScript Tutorials</string>
+    <string name="couse_16">Python Tutorials</string>
+    <string name="couse_17">React Tutorials</string>
+    <string name="couse_18">HTML and CSS Tutorials</string>
+    <string name="couse_19">Computer Science Concepts</string>
+
 </resources>

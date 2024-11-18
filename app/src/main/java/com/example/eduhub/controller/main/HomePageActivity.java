@@ -72,30 +72,30 @@ public class HomePageActivity extends AppCompatActivity {
     }
 
     private void initRecyclerView() {
-        listItems = new ArrayList<>();
-
-        for(int i = 0; i <= 10; i++) {
-            ListItem listItem = new ListItem("https://i.ytimg.com/vi/tN6oJu2DqCM/maxresdefault.jpg");
-
-            listItems.add(listItem);
-        }
-
-        recyclerView = (RecyclerView) findViewById(R.id.view1);
-        recyclerView2 = (RecyclerView) findViewById(R.id.view2);
-        recyclerView3 = (RecyclerView) findViewById(R.id.view3);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerView2.setHasFixedSize(true);
-        recyclerView2.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerView3.setHasFixedSize(true);
-        recyclerView3.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-
-
-        adapter = new ListAdapter(listItems, this);
-
-        recyclerView.setAdapter(adapter);
-        recyclerView2.setAdapter(adapter);
-        recyclerView3.setAdapter(adapter);
+//        listItems = new ArrayList<>();
+//
+//        for(int i = 0; i <= 10; i++) {
+//            ListItem listItem = new ListItem("https://i.ytimg.com/vi/tN6oJu2DqCM/maxresdefault.jpg");
+//
+//            listItems.add(listItem);
+//        }
+//
+//        recyclerView = (RecyclerView) findViewById(R.id.view1);
+//        recyclerView2 = (RecyclerView) findViewById(R.id.view2);
+//        recyclerView3 = (RecyclerView) findViewById(R.id.view3);
+//        recyclerView.setHasFixedSize(true);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        recyclerView2.setHasFixedSize(true);
+//        recyclerView2.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        recyclerView3.setHasFixedSize(true);
+//        recyclerView3.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//
+//
+//        adapter = new ListAdapter(listItems, this);
+//
+//        recyclerView.setAdapter(adapter);
+//        recyclerView2.setAdapter(adapter);
+//        recyclerView3.setAdapter(adapter);
     }
 
     private void banners() {
