@@ -15,6 +15,7 @@ import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
 import com.example.eduhub.controller.main.HomePageActivity_deprecated;
+import com.example.eduhub.model.AuthenticationModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
@@ -24,8 +25,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignInActivity extends AppCompatActivity {
 
     private TextView textViewSignUp, textViewForgotPass;
-    private EditText editTextEmail;
-    private TextInputEditText editTextPassword;
+    private TextInputEditText editTextEmail, editTextPassword;
     private AppCompatButton btnSignIn, btnGoogle;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
@@ -37,7 +37,7 @@ public class SignInActivity extends AppCompatActivity {
 
         textViewSignUp = findViewById(R.id.signUpText);
         textViewForgotPass = findViewById(R.id.forgotPasswordText);
-        editTextEmail = findViewById(R.id.emailEditText);
+        editTextEmail = findViewById(R.id.emailTextInputEditText);
         editTextPassword = findViewById(R.id.passTextInputEditText);
         btnSignIn = findViewById(R.id.signInButton);
         btnGoogle = findViewById(R.id.loginGoogleButton);
@@ -64,6 +64,11 @@ public class SignInActivity extends AppCompatActivity {
 
                 if(TextUtils.isEmpty(email)) {
                     Toast.makeText(SignInActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if(!AuthenticationModel.isValidEmail(email)) {
+                    Toast.makeText(SignInActivity.this, "Invalid email.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
