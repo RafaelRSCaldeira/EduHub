@@ -11,5 +11,6 @@
     <color name="bg_main_color">#ECF0F1</color>
     <color name="dark_color">#12181E</color>
     <color name="bright_color">#dde1e3</color>
+    <color name="selected_color">#A7A8AB</color>
     <color name="light_gray">#616161</color>
 </resources>

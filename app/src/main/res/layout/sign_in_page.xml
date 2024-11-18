@@ -48,22 +48,31 @@
             android:textSize="@dimen/h1_size"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/emailEditText"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailTextInputLayout"
             android:layout_width="@dimen/edit_text_width"
             android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="35dp"
             android:layout_marginTop="50dp"
             android:alpha="0.5"
-            android:autofillHints="emailAddress"
+            app:boxStrokeWidth="0dp"
             android:background="@drawable/bg_input"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
-            android:layout_gravity="center"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:textColor="@color/light_gray"
-            android:textSize="@dimen/input_text_size"
-            tools:ignore="TextContrastCheck" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+            tools:ignore="TextContrastCheck">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailTextInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bg_input"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textColor="@color/light_gray"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passTextInputLayout"
@@ -72,7 +81,7 @@
             android:layout_marginStart="35dp"
             android:layout_marginTop="10dp"
             android:alpha="0.5"
-            app:boxBackgroundMode="outline"
+            app:boxStrokeWidth="0dp"
             app:passwordToggleEnabled="true"
             android:background="@drawable/bg_input"
             app:layout_constraintStart_toStartOf="parent"
@@ -105,7 +114,7 @@
             android:textColor="@color/dark_color"
             tools:ignore="TextContrastCheck" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signInButton"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_height"
@@ -158,7 +167,7 @@
         </LinearLayout>
 
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginGoogleButton"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_height"

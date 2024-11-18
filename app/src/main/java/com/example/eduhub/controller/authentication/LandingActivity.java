@@ -3,9 +3,9 @@ package com.example.eduhub.controller.authentication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
 import com.example.eduhub.controller.main.HomePageActivity;
@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LandingActivity extends AppCompatActivity {
 
-    private Button signIn, signUp;
+    private AppCompatButton signIn, signUp;
     FirebaseAuth mAuth;
 
     @Override

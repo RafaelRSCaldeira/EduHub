@@ -4,34 +4,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
+import com.example.eduhub.controller.main.HomePageActivity;
 import com.example.eduhub.model.AuthenticationModel;
 import com.example.eduhub.R;
-import com.example.eduhub.controller.main.HomePageActivity;
-import com.example.eduhub.utils.ColorUtils;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 public class SignUpActivity extends AppCompatActivity {
 
     private TextView textViewSignIn;
-    private EditText editTextName, editTextEmail;
-    private TextInputEditText editTextPassword, editTextConfirmPassword;
-    private Button buttonSignUp;
+    private TextInputEditText editTextName, editTextEmail, editTextPassword, editTextConfirmPassword;
+    private AppCompatButton buttonSignUp;
     private FirebaseAuth mAuth;
     private ImageButton backBtn;
 
@@ -41,8 +35,8 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(R.layout.sign_up_page);
 
         textViewSignIn = findViewById(R.id.signInText);
-        editTextName = findViewById(R.id.nameEditText);
-        editTextEmail = findViewById(R.id.emailEditText);
+        editTextName = findViewById(R.id.nameTextInputEditText);
+        editTextEmail = findViewById(R.id.emailTextInputEditText);
         editTextPassword = findViewById(R.id.passTextInputEditText);
         editTextConfirmPassword = findViewById(R.id.confirmPassTextInputEditText);
         buttonSignUp = findViewById(R.id.signUpButton);
