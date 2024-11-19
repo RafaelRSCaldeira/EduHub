@@ -46,5 +46,7 @@
 
     <dimen name="course_page_width">340dp</dimen>
     <dimen name="couse_video_height">60dp</dimen>
-    <dimen name="couse_title_margin_top">60dp</dimen>
+    <dimen name="couse_title_margin_top">40dp</dimen>
+    <dimen name="course_desc_margin_top">20dp</dimen>
+    <dimen name="course_list_margin_top">50dp</dimen>
 </resources>

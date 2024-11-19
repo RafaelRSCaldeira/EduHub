@@ -116,4 +116,7 @@
     <string name="couse_18">HTML and CSS Tutorials</string>
     <string name="couse_19">Computer Science Concepts</string>
 
+    <!-- COURSE PAGE STRING -->
+    <string name="course_text">Courses</string>
+
 </resources>

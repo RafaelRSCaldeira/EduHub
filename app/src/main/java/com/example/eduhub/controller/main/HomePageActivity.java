@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
@@ -19,6 +20,7 @@ import com.example.eduhub.R;
 import com.example.eduhub.controller.certificate.CertificatesActivity;
 import com.example.eduhub.controller.main.adapters.ListAdapter;
 import com.example.eduhub.controller.main.adapters.SliderAdaptes;
+import com.example.eduhub.controller.main.courses.Course1Activity;
 import com.example.eduhub.controller.main.domain.ListItem;
 import com.example.eduhub.controller.main.domain.SliderItems;
 import com.example.eduhub.controller.menu.MenuActivity;
@@ -33,6 +35,7 @@ public class HomePageActivity extends AppCompatActivity {
     private ListAdapter adapter;
     private List<ListItem> listItems;
     private LinearLayout certificateContainer, menuContainer;
+    private ImageView c1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,21 @@ public class HomePageActivity extends AppCompatActivity {
         banners();
         initRecyclerView();
         bottomBar();
+        setCourses();
+    }
+
+    private void setCourses() {
+        c1 = findViewById(R.id.thumb1_1);
+
+        c1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomePageActivity.this, Course1Activity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+            }
+        });
     }
 
     private void bottomBar() {
