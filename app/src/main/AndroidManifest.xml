@@ -18,10 +18,10 @@
             android:name=".controller.main.courses.Course1Activity"
             android:exported="false" />
         <activity
-            android:name=".controller.authentication.LandingActivity"
+            android:name=".controller.main.HomePageActivity"
             android:exported="false" />
         <activity
-            android:name=".controller.main.HomePageActivity"
+            android:name=".controller.authentication.LandingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
