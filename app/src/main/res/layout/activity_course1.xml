@@ -84,8 +84,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/bg_progress_bar"
-                    style="?android:attr/progressBarStyleHorizontal"/>
+                    style="@style/MacroHorizontalProgressBarStyle"
+                    android:progressDrawable="@drawable/bg_progress_bar"
+                    tools:progress="999" />
 
 
             </LinearLayout>

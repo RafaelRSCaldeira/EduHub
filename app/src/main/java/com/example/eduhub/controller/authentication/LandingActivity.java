@@ -3,6 +3,7 @@ package com.example.eduhub.controller.authentication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -15,7 +16,8 @@ import com.google.firebase.auth.FirebaseUser;
 public class LandingActivity extends AppCompatActivity {
 
     private AppCompatButton signIn, signUp;
-    FirebaseAuth mAuth;
+    private ImageButton skipBtn;
+    private FirebaseAuth mAuth;
 
     @Override
     public void onStart() {
@@ -36,6 +38,7 @@ public class LandingActivity extends AppCompatActivity {
 
         signIn = findViewById(R.id.signInButton);
         signUp = findViewById(R.id.signUpButton);
+        skipBtn = findViewById(R.id.button_skip);
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +54,16 @@ public class LandingActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LandingActivity.this, SignUpActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+            }
+        });
+
+        skipBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingActivity.this, HomePageActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();

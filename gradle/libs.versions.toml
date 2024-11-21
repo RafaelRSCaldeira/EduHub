@@ -1,5 +1,6 @@
 [versions]
 agp = "8.7.2"
+durationviewVersion = "0.0.1"
 glide = "4.14.2"
 glideVersion = "4.12.0"
 junit = "4.13.2"
@@ -36,6 +37,7 @@ activity = { group = "androidx.activity", name = "activity", version.ref = "acti
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+rayzone107-durationview = { module = "com.github.rayzone107:durationview", version.ref = "durationviewVersion" }
 recyclerview-v7 = { module = "com.android.support:recyclerview-v7", version.ref = "recyclerviewV7" }
 
 [plugins]

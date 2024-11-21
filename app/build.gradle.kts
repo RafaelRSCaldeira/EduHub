@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.firebase.database)
     implementation(libs.glide)
     implementation(libs.picasso)
+    implementation(libs.rayzone107.durationview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
