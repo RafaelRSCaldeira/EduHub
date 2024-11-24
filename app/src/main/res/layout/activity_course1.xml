@@ -20,31 +20,57 @@
             android:layout_gravity="center_horizontal"
             android:orientation="vertical">
 
-
-            <ImageButton
-                android:id="@+id/button_back"
-                android:layout_width="wrap_content"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:layout_marginTop="@dimen/back_btn_margin_top"
-                android:layout_marginStart="@dimen/back_btn_margin_left"
-                android:src="@drawable/ic_left_arrow"
-                android:background="@drawable/bg_button_green"
-                android:contentDescription="@string/back_btn_desc"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/bg_main_color" />
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/course_text"
-                android:textAlignment="center"
-                android:textColor="@color/main_green"
-                android:textSize="@dimen/h1_size"
-                android:textStyle="bold"
-                android:layout_marginTop="-55dp"
-                android:layout_gravity="center_horizontal"/>
+                <ImageButton
+                    android:id="@+id/button_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="@dimen/back_btn_margin_top"
+                    android:layout_marginStart="@dimen/back_btn_margin_left"
+                    android:src="@drawable/ic_left_arrow"
+                    android:background="@drawable/bg_button_green"
+                    android:contentDescription="@string/back_btn_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/bg_main_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/main_green"
+                    android:textSize="@dimen/h1_size"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/button_disable_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="@dimen/back_btn_margin_top"
+                    android:layout_marginEnd="@dimen/back_btn_margin_left"
+                    android:src="@drawable/ic_check"
+                    android:background="@drawable/bg_button_green"
+                    android:contentDescription="@string/back_btn_desc"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/bg_main_color" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
 
             <LinearLayout
                 android:id="@+id/mainContainer"
@@ -74,7 +100,7 @@
                 <TextView
                     android:layout_width="@dimen/course_page_width"
                     android:layout_height="wrap_content"
-                    android:text="@string/couse_1"
+                    android:text="@string/course_1"
                     android:textAlignment="center"
                     android:textColor="@color/main_green"
                     android:textSize="@dimen/h3_size"

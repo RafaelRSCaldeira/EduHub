@@ -2,7 +2,7 @@
     <!-- UNIVERSAL STRINGS -->
     <string name="app_name">EduHub</string>
     <string name="eduhub">EduHub</string>
-    <string name="version">Version 2.0</string>
+    <string name="version">Version 1.0</string>
 
     <!-- LANDING PAGE STRINGS -->
     <string name="welcome">Welcome Back!</string>
@@ -58,24 +58,24 @@
     <string name="support_text_1">We are here to help you make the most of your experience with our app.</string>
     <string name="faq">Frequently Asked Questions (FAQ)</string>
     <string name="faq_questions">
-        1.How do I create an account?&#10;
-        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.&#10;&#10;
-        2.I forgot my password. What should I do?&#10;
-        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.&#10;&#10;
-        3.How can I update my profile?&#10;
-        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.&#10;&#10;
-        4.What should I do if the app is not working correctly?&#10;
+        1.How do I create an account?\n
+        - Open the app and click on "Sign Up." Follow the instructions to enter your information and create your account.\n\n
+        2.I forgot my password. What should I do?\n
+        - On the login screen, click on "Forgot Password?" and follow the instructions to reset it.\n\n
+        3.How can I update my profile?\n
+        - Go to the "My Profile" section in the menu. Here, you can edit your information and update your photo.\n\n
+        4.What should I do if the app is not working correctly?\n
         - Try restarting the app. If the issue persists, check for updates available in your app store and install the latest version.
     </string>
     <string name="contact_support_title">Contact Support</string>
     <string name="contact_support_text">
-        If you didn\'t find the answer you were looking for, our support team is ready to help! Follow these steps to get in touch:&#10;
-        - Email: Send your questions to eduhubproject2000@gmail.com.
+        If you didn\'t find the answer you were looking for, our support team is ready to help! Follow these steps to get in touch:\n\n
+        - Email: Send your questions to eduhubproject2000@gmail.com\n\n
     </string>
     <string name="useful_tips">Useful Tips</string>
     <string name="tips">
-        - Keep the app updated to ensure the best performance.&#10;
-        - Enable notifications so you don\'t miss important updates.&#10;
+        - Keep the app updated to ensure the best performance.\n
+        - Enable notifications so you don\'t miss important updates.\n
     </string>
     <string name="thanks">Thank you for choosing EduHub! We are here to ensure that your experience is the best it can be.</string>
 
@@ -95,25 +95,25 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- COURSES STRINGS -->
-    <string name="couse_1">Back End Developer Learning Path</string>
-    <string name="couse_2">Front End Developer Learning Path</string>
-    <string name="couse_3">C / C++</string>
-    <string name="couse_4">Deep Learning with PyTorch Course - December 2020</string>
-    <string name="couse_5">Data Analysis with Python Course</string>
-    <string name="couse_6">Mathematics</string>
-    <string name="couse_7">DevOps Courses</string>
-    <string name="couse_8">Deep Learning with PyTorch Live Course</string>
-    <string name="couse_9">Popular Programming Courses</string>
-    <string name="couse_10">App Development Tutorials</string>
-    <string name="couse_11">PHP Tutorials</string>
-    <string name="couse_12">Vue.js</string>
-    <string name="couse_13">Data Science</string>
-    <string name="couse_14">Ethical Hacking</string>
-    <string name="couse_15">JavaScript Tutorials</string>
-    <string name="couse_16">Python Tutorials</string>
-    <string name="couse_17">React Tutorials</string>
-    <string name="couse_18">HTML and CSS Tutorials</string>
-    <string name="couse_19">Computer Science Concepts</string>
+    <string name="course_1">Back End Developer Learning Path</string>
+    <string name="course_2">Front End Developer Learning Path</string>
+    <string name="course_3">C / C++</string>
+    <string name="course_4">Deep Learning with PyTorch Course - December 2020</string>
+    <string name="course_5">Data Analysis with Python Course</string>
+    <string name="course_6">Mathematics</string>
+    <string name="course_7">DevOps Courses</string>
+    <string name="course_8">Deep Learning with PyTorch Live Course</string>
+    <string name="course_9">Popular Programming Courses</string>
+    <string name="course_10">App Development Tutorials</string>
+    <string name="course_11">PHP Tutorials</string>
+    <string name="course_12">Vue.js</string>
+    <string name="course_13">Data Science</string>
+    <string name="course_14">Ethical Hacking</string>
+    <string name="course_15">JavaScript Tutorials</string>
+    <string name="course_16">Python Tutorials</string>
+    <string name="course_17">React Tutorials</string>
+    <string name="course_18">HTML and CSS Tutorials</string>
+    <string name="course_19">Computer Science Concepts</string>
 
     <!-- COURSE PAGE STRINGS -->
     <string name="course_text">Courses</string>

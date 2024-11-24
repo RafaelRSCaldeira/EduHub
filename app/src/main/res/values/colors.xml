@@ -15,4 +15,5 @@
     <color name="bright_color">#dde1e3</color>
     <color name="selected_color">#A7A8AB</color>
     <color name="light_gray">#616161</color>
+    <color name="red_color">#B22222</color>
 </resources>

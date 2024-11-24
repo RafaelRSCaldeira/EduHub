@@ -55,12 +55,12 @@
                     android:layout_height="wrap_content"
                     android:text="@string/my_certificates"
                     android:textSize="@dimen/h3_size"
-                    android:textColor="@color/dark_color"
+                    android:textColor="@color/main_green"
                     android:textStyle="bold"
                     android:layout_gravity="center"
                     android:layout_marginBottom="30dp"/>
-
                 <LinearLayout
+                    android:id="@+id/course_1_container"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="40dp"
@@ -80,17 +80,37 @@
                         android:contentDescription="@null"
                         android:src="@drawable/img_certificate_template" />
 
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
+                        android:orientation="horizontal">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course_1"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/h5_size"
+                            android:textStyle="bold"/>
+
+                        <ImageButton
+                            android:id="@+id/btn1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:background="@drawable/bg_button_white"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_right_arrow"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
-
                 <LinearLayout
+                    android:id="@+id/course_2_container"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="40dp"
@@ -110,17 +130,37 @@
                         android:contentDescription="@null"
                         android:src="@drawable/img_certificate_template" />
 
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
+                        android:orientation="horizontal">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course_2"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/h5_size"
+                            android:textStyle="bold"/>
+
+                        <ImageButton
+                            android:id="@+id/btn2"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:background="@drawable/bg_button_white"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_right_arrow"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
-
                 <LinearLayout
+                    android:id="@+id/course_3_container"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="40dp"
@@ -140,17 +180,37 @@
                         android:contentDescription="@null"
                         android:src="@drawable/img_certificate_template" />
 
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
+                        android:orientation="horizontal">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course_3"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/h5_size"
+                            android:textStyle="bold"/>
+
+                        <ImageButton
+                            android:id="@+id/btn3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:background="@drawable/bg_button_white"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_right_arrow"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
-
                 <LinearLayout
+                    android:id="@+id/course_4_container"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="40dp"
@@ -170,17 +230,37 @@
                         android:contentDescription="@null"
                         android:src="@drawable/img_certificate_template" />
 
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
+                        android:orientation="horizontal">
 
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course_4"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/h5_size"
+                            android:textStyle="bold"/>
+
+                        <ImageButton
+                            android:id="@+id/btn4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:background="@drawable/bg_button_white"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_right_arrow"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
-
                 <LinearLayout
+                    android:id="@+id/course_5_container"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="40dp"
@@ -200,44 +280,34 @@
                         android:contentDescription="@null"
                         android:src="@drawable/img_certificate_template" />
 
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
+                        android:orientation="horizontal">
 
-                </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/course_5"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/h5_size"
+                            android:textStyle="bold"/>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="40dp"
-                    android:paddingTop="30dp"
-                    android:paddingEnd="30dp"
-                    android:paddingStart="30dp"
-                    android:paddingBottom="20dp"
-                    android:gravity="top"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_certificate_container">
+                        <ImageButton
+                            android:id="@+id/btn5"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:background="@drawable/bg_button_white"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_right_arrow"/>
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="200dp"
-                        android:layout_gravity="top"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="@null"
-                        android:src="@drawable/img_certificate_template" />
-
-                    <ImageButton
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/bg_button_white"
-                        android:src="@drawable/ic_right_arrow"
-                        android:layout_gravity="end"/>
-
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
                 <LinearLayout

@@ -30,13 +30,14 @@ import java.util.List;
 
 public class Course1Activity extends AppCompatActivity {
 
-    private ImageButton backBtn;
+    private ImageButton backBtn, blockBtn;
     private Button btnEndCourse;
     private List<String> urls;
     private List<Button> buttons;
     private HashMap<Integer, Boolean> states;
     private double progressBarCount;
     private ProgressBar progressBar;
+    private boolean blockStatus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +46,28 @@ public class Course1Activity extends AppCompatActivity {
 
         setProgressBar();
         setBackBtn();
+        setBlockBtn();
         createUrlList();
-        setButtons();
+        setButtons(true);
+    }
+    private void setBlockBtn() {
+        blockStatus = true;
+        blockBtn = findViewById(R.id.button_disable_link);
+
+        blockBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                blockStatus = !blockStatus;
+                setButtons(blockStatus);
+                if(blockStatus) {
+                    blockBtn.setImageResource(R.drawable.ic_check);
+                    blockBtn.setBackgroundResource(R.drawable.bg_button_green);
+                } else {
+                    blockBtn.setImageResource(R.drawable.ic_block);
+                    blockBtn.setBackgroundResource(R.drawable.bg_button_red);
+                }
+            }
+        });
     }
 
     private void setProgressBar() {
@@ -76,7 +97,7 @@ public class Course1Activity extends AppCompatActivity {
         urls.add("https://www.youtube.com/watch?v=zN8YNNHcaZc");
     }
 
-    private void setButtons() {
+    private void setButtons(boolean enable) {
         buttons = new ArrayList<>();
         buttons.add(findViewById(R.id.couse1));
         buttons.add(findViewById(R.id.couse2));
@@ -100,7 +121,7 @@ public class Course1Activity extends AppCompatActivity {
         setStates();
 
         for(int i = 0; i < buttons.size(); i++) {
-            setButtonListener(buttons.get(i), urls.get(i));
+            setButtonListener(buttons.get(i), urls.get(i), enable);
         }
     }
 
@@ -112,12 +133,14 @@ public class Course1Activity extends AppCompatActivity {
         }
     }
 
-    private void setButtonListener(Button btn, String url) {
+    private void setButtonListener(Button btn, String url, boolean enable) {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.VIEW", Uri.parse(url));
-                startActivity(intent);
+                if(enable) {
+                    startActivity(intent);
+                }
                 if(Boolean.FALSE.equals(states.get(btn.getId()))) {
                     btn.setBackgroundResource(R.drawable.bg_button_course_done);
                     btn.setTextColor(ContextCompat.getColor(getApplicationContext() ,R.color.bg_main_color));
@@ -126,9 +149,6 @@ public class Course1Activity extends AppCompatActivity {
                     addToProgressBar();
                     states.put(btn.getId(), true);
                 }
-                if(progressBarCount > 95) {
-                    finishCourse();
-                }
             }
         });
     }
@@ -136,8 +156,9 @@ public class Course1Activity extends AppCompatActivity {
     private void addToProgressBar() {
         double step = 100.0 / buttons.size();
         progressBarCount += step;
-        if(progressBarCount > 100) {
+        if(progressBarCount > 98) {
             progressBarCount = 100;
+            finishCourse();
         }
         progressBar.setProgress((int) Math.round(progressBarCount));
     }

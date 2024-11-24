@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import com.example.eduhub.R;
+import com.example.eduhub.model.AuthenticationModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -44,12 +45,18 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                     Toast.makeText(ForgotPasswordActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if(!AuthenticationModel.isValidEmail(email)) {
+                    Toast.makeText(ForgotPasswordActivity.this, "Invalid email", Toast.LENGTH_SHORT).show();
+                    return;
+
+                }
                 mAuth.sendPasswordResetEmail(email)
                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Intent intent = new Intent(ForgotPasswordActivity.this, ConfirmPassResetActivity.class);
+                                    Toast.makeText(ForgotPasswordActivity.this, "Reset pass sent to email", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(ForgotPasswordActivity.this, LandingActivity.class);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();

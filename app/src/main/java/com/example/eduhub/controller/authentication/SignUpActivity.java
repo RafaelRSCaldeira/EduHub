@@ -105,9 +105,9 @@ public class SignUpActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     AuthenticationModel.saveValues(email, name);
-                                    Toast.makeText(SignUpActivity.this, "Account created.",
+                                    Toast.makeText(SignUpActivity.this, "Verification sent to user email.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignUpActivity.this, EmailVerificationActivity.class);
+                                    Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
                                     startActivity(intent);
                                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                                     finish();
