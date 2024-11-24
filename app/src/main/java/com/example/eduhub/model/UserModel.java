@@ -2,9 +2,9 @@ package com.example.eduhub.model;
 
 import com.example.eduhub.utils.ColorUtils;
 
-public class User {
+public class UserModel {
     private String email, name, color;
-    User(String email, String name) {
+    UserModel(String email, String name) {
         this.email = email;
         this.name = name;
         this.color = ColorUtils.generateRandomRainbowColorHex();

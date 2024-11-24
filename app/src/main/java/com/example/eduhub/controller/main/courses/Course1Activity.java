@@ -21,6 +21,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.eduhub.R;
 import com.example.eduhub.controller.authentication.LandingActivity;
 import com.example.eduhub.controller.authentication.SignInActivity;
+import com.example.eduhub.controller.certificate.courses.Course1CertificateActivity;
 import com.example.eduhub.controller.main.HomePageActivity;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ import java.util.List;
 public class Course1Activity extends AppCompatActivity {
 
     private ImageButton backBtn;
-    private Button c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18;
+    private Button btnEndCourse;
     private List<String> urls;
     private List<Button> buttons;
     private HashMap<Integer, Boolean> states;
@@ -116,7 +117,7 @@ public class Course1Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("android.intent.action.VIEW", Uri.parse(url));
-                //startActivity(intent);
+                startActivity(intent);
                 if(Boolean.FALSE.equals(states.get(btn.getId()))) {
                     btn.setBackgroundResource(R.drawable.bg_button_course_done);
                     btn.setTextColor(ContextCompat.getColor(getApplicationContext() ,R.color.bg_main_color));
@@ -124,6 +125,9 @@ public class Course1Activity extends AppCompatActivity {
                     btn.setCompoundDrawablesWithIntrinsicBounds(drawableLeft, null, null, null);
                     addToProgressBar();
                     states.put(btn.getId(), true);
+                }
+                if(progressBarCount > 95) {
+                    finishCourse();
                 }
             }
         });
@@ -136,6 +140,21 @@ public class Course1Activity extends AppCompatActivity {
             progressBarCount = 100;
         }
         progressBar.setProgress((int) Math.round(progressBarCount));
+    }
+
+    private void finishCourse() {
+        btnEndCourse = findViewById(R.id.end_course_button);
+        btnEndCourse.setVisibility(View.VISIBLE);
+
+        btnEndCourse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Course1Activity.this, Course1CertificateActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+            }
+        });
     }
 
     private void setBackBtn() {

@@ -92,7 +92,6 @@
 
     <!-- DESCRIPTION STRINGS -->
     <string name="back_btn_desc">Back</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- COURSES STRINGS -->
@@ -116,7 +115,12 @@
     <string name="couse_18">HTML and CSS Tutorials</string>
     <string name="couse_19">Computer Science Concepts</string>
 
-    <!-- COURSE PAGE STRING -->
+    <!-- COURSE PAGE STRINGS -->
     <string name="course_text">Courses</string>
+    <string name="end_course">End Course</string>
+    
+    <!-- CERTIFICATE PAGE STRINGS -->
+    <string name="congrat">Congratulations!</string>
+    <string name="congrat2">You have successfully completed the course</string>
 
 </resources>

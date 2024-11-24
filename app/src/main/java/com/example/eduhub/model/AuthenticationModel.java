@@ -1,18 +1,8 @@
 package com.example.eduhub.model;
 
-import androidx.annotation.NonNull;
-
-import com.example.eduhub.utils.ColorUtils;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -33,10 +23,10 @@ public class AuthenticationModel {
     }
 
     public static void saveValues(String email, String name) {
-        User user = new User(email, name);
+        UserModel userModel = new UserModel(email, name);
         FirebaseDatabase mDatabase = FirebaseDatabase.getInstance();
         DatabaseReference users = mDatabase.getReference("users");
-        users.child(String.valueOf(email.hashCode())).setValue(user);
+        users.child(String.valueOf(email.hashCode())).setValue(userModel);
     }
 
 }
